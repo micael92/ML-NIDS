@@ -1,0 +1,220 @@
+2024-10-20 19:19:03 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/tuesday.csv
+2024-10-20 19:19:03 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/monday.csv
+2024-10-20 19:19:03 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/thursday.csv
+2024-10-20 19:19:04 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/wednesday.csv
+2024-10-20 19:19:04 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/friday.csv
+2024-10-20 19:19:04 - INFO - Successfully processed directory ../01_Datensaetze/improved_cic-ids-2017
+2024-10-20 19:20:12 - ERROR - Error processing directory ../01_Datensaetze/improved_cse-cic-ids-2018: BaseContext.cpu_count() takes 1 positional argument but 2 were given
+2024-10-20 19:20:14 - INFO - Successfully read ../01_Datensaetze/improved_cse-cic-ids-2018/Friday-16-02-2018.csv
+2024-10-20 19:20:37 - ERROR - Error processing directory ../01_Datensaetze/improved_cic-ids-2017: BaseContext.cpu_count() takes 1 positional argument but 2 were given
+2024-10-20 19:20:59 - ERROR - Error processing directory ../01_Datensaetze/improved_cic-ids-2017: BaseContext.cpu_count() takes 1 positional argument but 2 were given
+2024-10-20 19:21:23 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/tuesday.csv
+2024-10-20 19:21:24 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/thursday.csv
+2024-10-20 19:21:24 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/monday.csv
+2024-10-20 19:21:24 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/wednesday.csv
+2024-10-20 19:21:24 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/friday.csv
+2024-10-20 19:21:24 - INFO - Successfully processed directory ../01_Datensaetze/improved_cic-ids-2017
+2024-10-20 19:21:33 - ERROR - Error processing directory ../01_Datensaetze/improved_cic-ids-2017: BaseContext.cpu_count() takes 1 positional argument but 2 were given
+2024-10-20 19:22:43 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/tuesday.csv
+2024-10-20 19:22:43 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/monday.csv
+2024-10-20 19:22:43 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/thursday.csv
+2024-10-20 19:22:43 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/wednesday.csv
+2024-10-20 19:22:43 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/friday.csv
+2024-10-20 19:22:43 - INFO - Successfully processed directory ../01_Datensaetze/improved_cic-ids-2017
+2024-10-20 19:22:59 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/tuesday.csv
+2024-10-20 19:22:59 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/thursday.csv
+2024-10-20 19:22:59 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/monday.csv
+2024-10-20 19:23:00 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/wednesday.csv
+2024-10-20 19:23:00 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/friday.csv
+2024-10-20 19:23:00 - INFO - Successfully processed directory ../01_Datensaetze/improved_cic-ids-2017
+2024-10-20 19:23:37 - INFO - Successfully read ../01_Datensaetze/improved_cse-cic-ids-2018/Wednesday-21-02-2018.csv
+2024-10-20 19:24:07 - INFO - Successfully read ../01_Datensaetze/improved_cse-cic-ids-2018/Wednesday-28-02-2018.csv
+2024-10-20 19:32:26 - INFO - Successfully read ../01_Datensaetze/improved_cse-cic-ids-2018/Wednesday-21-02-2018.csv
+2024-10-20 19:32:57 - INFO - Successfully read ../01_Datensaetze/improved_cse-cic-ids-2018/Wednesday-28-02-2018.csv
+2024-10-20 19:38:01 - INFO - Successfully read ../01_Datensaetze/improved_cse-cic-ids-2018/Tuesday-20-02-2018.csv
+2024-10-20 19:38:21 - INFO - Successfully read ../01_Datensaetze/improved_cse-cic-ids-2018/Thursday-15-02-2018.csv
+2024-10-20 19:38:45 - INFO - Successfully read ../01_Datensaetze/improved_cse-cic-ids-2018/Thursday-01-03-2018.csv
+2024-10-20 19:39:08 - INFO - Successfully read ../01_Datensaetze/improved_cse-cic-ids-2018/Thursday-22-02-2018.csv
+2024-10-20 19:39:34 - INFO - Successfully read ../01_Datensaetze/improved_cse-cic-ids-2018/Wednesday-21-02-2018.csv
+2024-10-20 19:39:56 - INFO - Successfully read ../01_Datensaetze/improved_cse-cic-ids-2018/Wednesday-14-02-2018.csv
+2024-10-20 19:40:19 - INFO - Successfully read ../01_Datensaetze/improved_cse-cic-ids-2018/Friday-23-02-2018.csv
+2024-10-20 19:40:48 - INFO - Successfully read ../01_Datensaetze/improved_cse-cic-ids-2018/Friday-16-02-2018.csv
+2024-10-20 19:41:12 - INFO - Successfully read ../01_Datensaetze/improved_cse-cic-ids-2018/Friday-02-03-2018.csv
+2024-10-20 19:41:39 - INFO - Successfully read ../01_Datensaetze/improved_cse-cic-ids-2018/Wednesday-28-02-2018.csv
+2024-10-20 19:41:39 - INFO - Successfully processed directory ../01_Datensaetze/improved_cse-cic-ids-2018
+2024-10-20 19:42:40 - INFO - Start processing directory ../01_Datensaetze/improved_cse-cic-ids-2018
+2024-10-20 19:42:57 - INFO - Start processing directory ../01_Datensaetze/improved_cse-cic-ids-2018
+2024-10-20 19:43:27 - INFO - Successfully read ../01_Datensaetze/improved_cse-cic-ids-2018/Thursday-22-02-2018.csv
+2024-10-20 19:43:28 - INFO - Successfully read ../01_Datensaetze/improved_cse-cic-ids-2018/Thursday-01-03-2018.csv
+2024-10-20 19:43:54 - INFO - Successfully read ../01_Datensaetze/improved_cse-cic-ids-2018/Friday-23-02-2018.csv
+2024-10-20 19:43:57 - INFO - Successfully read ../01_Datensaetze/improved_cse-cic-ids-2018/Friday-16-02-2018.csv
+2024-10-20 19:44:23 - INFO - Successfully read ../01_Datensaetze/improved_cse-cic-ids-2018/Wednesday-28-02-2018.csv
+2024-10-20 19:49:00 - INFO - Start processing directory ../01_Datensaetze/improved_cse-cic-ids-2018
+2024-10-20 19:49:24 - INFO - Successfully read ../01_Datensaetze/improved_cse-cic-ids-2018/Tuesday-20-02-2018.csv
+2024-10-20 19:49:26 - INFO - Successfully read ../01_Datensaetze/improved_cse-cic-ids-2018/Thursday-01-03-2018.csv
+2024-10-20 19:49:44 - INFO - Successfully read ../01_Datensaetze/improved_cse-cic-ids-2018/Thursday-15-02-2018.csv
+2024-10-20 19:49:50 - INFO - Successfully read ../01_Datensaetze/improved_cse-cic-ids-2018/Thursday-22-02-2018.csv
+2024-10-20 19:50:15 - INFO - Successfully read ../01_Datensaetze/improved_cse-cic-ids-2018/Wednesday-21-02-2018.csv
+2024-10-20 19:50:16 - INFO - Successfully read ../01_Datensaetze/improved_cse-cic-ids-2018/Friday-23-02-2018.csv
+2024-10-20 19:50:38 - INFO - Successfully read ../01_Datensaetze/improved_cse-cic-ids-2018/Wednesday-14-02-2018.csv
+2024-10-20 19:50:44 - INFO - Successfully read ../01_Datensaetze/improved_cse-cic-ids-2018/Friday-16-02-2018.csv
+2024-10-20 19:51:05 - INFO - Successfully read ../01_Datensaetze/improved_cse-cic-ids-2018/Wednesday-28-02-2018.csv
+2024-10-20 19:51:08 - INFO - Successfully read ../01_Datensaetze/improved_cse-cic-ids-2018/Friday-02-03-2018.csv
+2024-10-20 19:51:08 - INFO - Successfully processed directory ../01_Datensaetze/improved_cse-cic-ids-2018
+2024-10-20 19:51:48 - INFO - Start processing directory ../01_Datensaetze/improved_cic-ids-2017
+2024-10-20 19:51:49 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/tuesday.csv
+2024-10-20 19:51:50 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/wednesday.csv
+2024-10-20 19:51:51 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/monday.csv
+2024-10-20 19:51:51 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/friday.csv
+2024-10-20 19:51:52 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/thursday.csv
+2024-10-20 19:51:52 - INFO - Successfully processed directory ../01_Datensaetze/improved_cic-ids-2017
+2024-10-21 11:49:53 - INFO - Start processing directory ../01_Datensaetze/improved_cic-ids-2017
+2024-10-21 11:49:54 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/tuesday.csv. Found labels: ['BENIGN' 'FTP-Patator - Attempted' 'FTP-Patator' 'SSH-Patator'
+ 'SSH-Patator - Attempted']
+2024-10-21 11:49:55 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/wednesday.csv. Found labels: ['BENIGN' 'DoS Slowloris' 'DoS Slowloris - Attempted' 'DoS Slowhttptest'
+ 'DoS Slowhttptest - Attempted' 'DoS Hulk' 'DoS Hulk - Attempted'
+ 'DoS GoldenEye' 'Heartbleed' 'DoS GoldenEye - Attempted']
+2024-10-21 11:49:56 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/friday.csv. Found labels: ['BENIGN' 'Botnet - Attempted' 'Botnet' 'Portscan' 'DDoS']
+2024-10-21 11:49:56 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/monday.csv. Found labels: ['BENIGN']
+2024-10-21 11:49:57 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/thursday.csv. Found labels: ['BENIGN' 'Web Attack - Brute Force - Attempted'
+ 'Web Attack - Brute Force' 'Infiltration - Attempted' 'Infiltration'
+ 'Infiltration - Portscan' 'Web Attack - XSS - Attempted'
+ 'Web Attack - XSS' 'Web Attack - SQL Injection - Attempted'
+ 'Web Attack - SQL Injection']
+2024-10-21 11:49:57 - INFO - Successfully processed directory ../01_Datensaetze/improved_cic-ids-2017
+2024-10-21 14:20:23 - INFO - Datei verarbeitet und gespeichert: ../01_Datensaetze/improved_cic-ids-2017/tuesday.csv
+2024-10-21 14:20:23 - INFO - Datei verarbeitet und gespeichert: ../01_Datensaetze/improved_cic-ids-2017/thursday.csv
+2024-10-21 14:20:24 - INFO - Datei verarbeitet und gespeichert: ../01_Datensaetze/improved_cic-ids-2017/monday.csv
+2024-10-21 14:20:26 - INFO - Datei verarbeitet und gespeichert: ../01_Datensaetze/improved_cic-ids-2017/friday.csv
+2024-10-21 14:20:26 - INFO - Datei verarbeitet und gespeichert: ../01_Datensaetze/improved_cic-ids-2017/wednesday.csv
+2024-10-21 14:21:06 - INFO - Start processing directory ../01_Datensaetze/improved_cic-ids-2017
+2024-10-21 14:21:07 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/tuesday.csv. Found labels: ['BENIGN' 'FTP-Patator - Attempted' 'FTP-Patator' 'SSH-Patator'
+ 'SSH-Patator - Attempted']
+2024-10-21 14:21:08 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/wednesday.csv. Found labels: ['BENIGN' 'DoS Slowloris' 'DoS Slowloris - Attempted' 'DoS Slowhttptest'
+ 'DoS Slowhttptest - Attempted' 'DoS Hulk' 'DoS Hulk - Attempted'
+ 'DoS GoldenEye' 'Heartbleed' 'DoS GoldenEye - Attempted']
+2024-10-21 14:21:09 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/monday.csv. Found labels: ['BENIGN']
+2024-10-21 14:21:09 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/friday.csv. Found labels: ['BENIGN' 'Botnet - Attempted' 'Botnet' 'Portscan' 'DDoS']
+2024-10-21 14:21:10 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/thursday.csv. Found labels: ['BENIGN' 'Web Attack - Brute Force - Attempted'
+ 'Web Attack - Brute Force' 'Infiltration - Attempted' 'Infiltration'
+ 'Infiltration - Portscan' 'Web Attack - XSS - Attempted'
+ 'Web Attack - XSS' 'Web Attack - SQL Injection - Attempted'
+ 'Web Attack - SQL Injection']
+2024-10-21 14:21:10 - INFO - Successfully processed directory ../01_Datensaetze/improved_cic-ids-2017
+2024-10-21 14:26:09 - INFO - Datei verarbeitet und gespeichert: ../01_Datensaetze/improved_cic-ids-2017/tuesday.csv
+2024-10-21 14:26:09 - INFO - Datei verarbeitet und gespeichert: ../01_Datensaetze/improved_cic-ids-2017/thursday.csv
+2024-10-21 14:26:11 - INFO - Datei verarbeitet und gespeichert: ../01_Datensaetze/improved_cic-ids-2017/monday.csv
+2024-10-21 14:26:12 - INFO - Datei verarbeitet und gespeichert: ../01_Datensaetze/improved_cic-ids-2017/friday.csv
+2024-10-21 14:26:13 - INFO - Datei verarbeitet und gespeichert: ../01_Datensaetze/improved_cic-ids-2017/wednesday.csv
+2024-10-21 14:26:17 - INFO - Start processing directory ../01_Datensaetze/improved_cic-ids-2017
+2024-10-21 14:26:19 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/tuesday.csv. Found labels: ['BENIGN' 'FTP-Patator - Attempted' 'FTP-Patator' 'SSH-Bruteforce'
+ 'SSH-Patator - Attempted']
+2024-10-21 14:26:20 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/wednesday.csv. Found labels: ['BENIGN' 'DoS Slowloris' 'DoS Slowloris - Attempted' 'DoS Slowhttptest'
+ 'DoS Slowhttptest - Attempted' 'DoS Hulk' 'DoS Hulk - Attempted'
+ 'DoS GoldenEye' 'Heartbleed' 'DoS GoldenEye - Attempted']
+2024-10-21 14:26:21 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/friday.csv. Found labels: ['BENIGN' 'Botnet Ares - Attempted' 'Botnet Ares' 'Portscan'
+ 'DDoS-LOIC-HTTP']
+2024-10-21 14:26:21 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/monday.csv. Found labels: ['BENIGN']
+2024-10-21 14:26:22 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/thursday.csv. Found labels: ['BENIGN' 'Web Attack - Brute Force - Attempted'
+ 'Web Attack - Brute Force' 'Infiltration - Attempted' 'Infiltration'
+ 'Infiltration - NMAP Portscan' 'Web Attack - XSS - Attempted'
+ 'Web Attack - XSS' 'Web Attack - SQL Injection - Attempted'
+ 'Web Attack - SQL Injection']
+2024-10-21 14:26:22 - INFO - Successfully processed directory ../01_Datensaetze/improved_cic-ids-2017
+2024-10-21 15:06:43 - INFO - Zeilen mit Labels '['DoS Slowhttptest', 'DoS Slowhttptest - Attempted', 'FTP-Patator', 'Heartbleed', 'Infiltration', 'Infiltration - Attempted', 'Portscan', 'SSH-Patator - Attempted']' entfernt und Datei gespeichert: ../01_Datensaetze/improved_cic-ids-2017/tuesday.csv
+2024-10-21 15:06:43 - INFO - Zeilen mit Labels '['DoS Slowhttptest', 'DoS Slowhttptest - Attempted', 'FTP-Patator', 'Heartbleed', 'Infiltration', 'Infiltration - Attempted', 'Portscan', 'SSH-Patator - Attempted']' entfernt und Datei gespeichert: ../01_Datensaetze/improved_cic-ids-2017/thursday.csv
+2024-10-21 15:06:44 - INFO - Zeilen mit Labels '['DoS Slowhttptest', 'DoS Slowhttptest - Attempted', 'FTP-Patator', 'Heartbleed', 'Infiltration', 'Infiltration - Attempted', 'Portscan', 'SSH-Patator - Attempted']' entfernt und Datei gespeichert: ../01_Datensaetze/improved_cic-ids-2017/monday.csv
+2024-10-21 15:06:44 - INFO - Zeilen mit Labels '['DoS Slowhttptest', 'DoS Slowhttptest - Attempted', 'FTP-Patator', 'Heartbleed', 'Infiltration', 'Infiltration - Attempted', 'Portscan', 'SSH-Patator - Attempted']' entfernt und Datei gespeichert: ../01_Datensaetze/improved_cic-ids-2017/friday.csv
+2024-10-21 15:06:46 - INFO - Zeilen mit Labels '['DoS Slowhttptest', 'DoS Slowhttptest - Attempted', 'FTP-Patator', 'Heartbleed', 'Infiltration', 'Infiltration - Attempted', 'Portscan', 'SSH-Patator - Attempted']' entfernt und Datei gespeichert: ../01_Datensaetze/improved_cic-ids-2017/wednesday.csv
+2024-10-21 15:07:41 - INFO - Start processing directory ../01_Datensaetze/improved_cic-ids-2017
+2024-10-21 15:07:42 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/tuesday.csv. Found labels: ['BENIGN' 'FTP-Patator - Attempted' 'SSH-Bruteforce']
+2024-10-21 15:07:43 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/wednesday.csv. Found labels: ['BENIGN' 'DoS Slowloris' 'DoS Slowloris - Attempted' 'DoS Hulk'
+ 'DoS Hulk - Attempted' 'DoS GoldenEye' 'DoS GoldenEye - Attempted']
+2024-10-21 15:07:43 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/friday.csv. Found labels: ['BENIGN' 'Botnet Ares - Attempted' 'Botnet Ares' 'DDoS-LOIC-HTTP']
+2024-10-21 15:07:44 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/monday.csv. Found labels: ['BENIGN']
+2024-10-21 15:07:45 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/thursday.csv. Found labels: ['BENIGN' 'Web Attack - Brute Force - Attempted'
+ 'Web Attack - Brute Force' 'Infiltration - NMAP Portscan'
+ 'Web Attack - XSS - Attempted' 'Web Attack - XSS'
+ 'Web Attack - SQL Injection - Attempted' 'Web Attack - SQL Injection']
+2024-10-21 15:07:45 - INFO - Successfully processed directory ../01_Datensaetze/improved_cic-ids-2017
+2024-10-21 15:13:55 - INFO - Start processing directory ../01_Datensaetze/improved_cic-ids-2017
+2024-10-21 15:13:56 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/tuesday.csv. Found labels: ['BENIGN' 'FTP-Patator - Attempted' 'SSH-Bruteforce']
+2024-10-21 15:13:57 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/wednesday.csv. Found labels: ['BENIGN' 'DoS Slowloris' 'DoS Slowloris - Attempted' 'DoS Hulk'
+ 'DoS Hulk - Attempted' 'DoS GoldenEye' 'DoS GoldenEye - Attempted']
+2024-10-21 15:13:58 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/friday.csv. Found labels: ['BENIGN' 'Botnet Ares - Attempted' 'Botnet Ares' 'DDoS-LOIC-HTTP']
+2024-10-21 15:13:58 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/monday.csv. Found labels: ['BENIGN']
+2024-10-21 15:13:59 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/thursday.csv. Found labels: ['BENIGN' 'Web Attack - Brute Force - Attempted'
+ 'Web Attack - Brute Force' 'Infiltration - NMAP Portscan'
+ 'Web Attack - XSS - Attempted' 'Web Attack - XSS'
+ 'Web Attack - SQL Injection - Attempted' 'Web Attack - SQL Injection']
+2024-10-21 15:13:59 - INFO - Successfully processed directory ../01_Datensaetze/improved_cic-ids-2017
+2024-10-21 15:14:16 - INFO - Start processing directory ../01_Datensaetze/improved_cic-ids-2017
+2024-10-21 15:14:17 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/tuesday.csv. Found labels: ['BENIGN' 'FTP-Patator - Attempted' 'SSH-Bruteforce']
+2024-10-21 15:14:17 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/wednesday.csv. Found labels: ['BENIGN' 'DoS Slowloris' 'DoS Slowloris - Attempted' 'DoS Hulk'
+ 'DoS Hulk - Attempted' 'DoS GoldenEye' 'DoS GoldenEye - Attempted']
+2024-10-21 15:14:18 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/friday.csv. Found labels: ['BENIGN' 'Botnet Ares - Attempted' 'Botnet Ares' 'DDoS-LOIC-HTTP']
+2024-10-21 15:14:19 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/monday.csv. Found labels: ['BENIGN']
+2024-10-21 15:14:19 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/thursday.csv. Found labels: ['BENIGN' 'Web Attack - Brute Force - Attempted'
+ 'Web Attack - Brute Force' 'Infiltration - NMAP Portscan'
+ 'Web Attack - XSS - Attempted' 'Web Attack - XSS'
+ 'Web Attack - SQL Injection - Attempted' 'Web Attack - SQL Injection']
+2024-10-21 15:14:19 - INFO - Successfully processed directory ../01_Datensaetze/improved_cic-ids-2017
+2024-10-21 15:17:38 - INFO - Zeilen mit Labels '['DDoS-HOIC', 'DDoS-LOIC-UDP', 'DDoS-LOIC-UDP - Attempted', 'Infiltration - Communication Victim Attacker', 'Infiltration - Dropbox Download', 'Infiltration - Dropbox Download - Attempted']' entfernt und Datei gespeichert: ../01_Datensaetze/improved_cse-cic-ids-2018/Wednesday-28-02-2018.csv
+2024-10-21 15:17:43 - INFO - Zeilen mit Labels '['DDoS-HOIC', 'DDoS-LOIC-UDP', 'DDoS-LOIC-UDP - Attempted', 'Infiltration - Communication Victim Attacker', 'Infiltration - Dropbox Download', 'Infiltration - Dropbox Download - Attempted']' entfernt und Datei gespeichert: ../01_Datensaetze/improved_cse-cic-ids-2018/Thursday-22-02-2018.csv
+2024-10-21 15:18:00 - INFO - Zeilen mit Labels '['DDoS-HOIC', 'DDoS-LOIC-UDP', 'DDoS-LOIC-UDP - Attempted', 'Infiltration - Communication Victim Attacker', 'Infiltration - Dropbox Download', 'Infiltration - Dropbox Download - Attempted']' entfernt und Datei gespeichert: ../01_Datensaetze/improved_cse-cic-ids-2018/Thursday-01-03-2018.csv
+2024-10-21 15:25:00 - INFO - Zeilen mit Labels '['DDoS-HOIC', 'DDoS-LOIC-UDP', 'DDoS-LOIC-UDP - Attempted', 'Infiltration - Communication Victim Attacker', 'Infiltration - Dropbox Download', 'Infiltration - Dropbox Download - Attempted']' entfernt und Datei gespeichert: ../01_Datensaetze/improved_cse-cic-ids-2018/Thursday-15-02-2018.csv
+2024-10-21 15:25:08 - INFO - Zeilen mit Labels '['DDoS-HOIC', 'DDoS-LOIC-UDP', 'DDoS-LOIC-UDP - Attempted', 'Infiltration - Communication Victim Attacker', 'Infiltration - Dropbox Download', 'Infiltration - Dropbox Download - Attempted']' entfernt und Datei gespeichert: ../01_Datensaetze/improved_cse-cic-ids-2018/Thursday-01-03-2018.csv
+2024-10-21 15:25:18 - INFO - Zeilen mit Labels '['DDoS-HOIC', 'DDoS-LOIC-UDP', 'DDoS-LOIC-UDP - Attempted', 'Infiltration - Communication Victim Attacker', 'Infiltration - Dropbox Download', 'Infiltration - Dropbox Download - Attempted']' entfernt und Datei gespeichert: ../01_Datensaetze/improved_cse-cic-ids-2018/Wednesday-14-02-2018.csv
+2024-10-21 15:26:50 - INFO - Zeilen mit Labels '['DDoS-HOIC', 'DDoS-LOIC-UDP', 'DDoS-LOIC-UDP - Attempted', 'Infiltration - Communication Victim Attacker', 'Infiltration - Dropbox Download', 'Infiltration - Dropbox Download - Attempted']' entfernt und Datei gespeichert: ../01_Datensaetze/improved_cse-cic-ids-2018/Friday-02-03-2018.csv
+2024-10-21 15:27:30 - INFO - Zeilen mit Labels '['DDoS-HOIC', 'DDoS-LOIC-UDP', 'DDoS-LOIC-UDP - Attempted', 'Infiltration - Communication Victim Attacker', 'Infiltration - Dropbox Download', 'Infiltration - Dropbox Download - Attempted']' entfernt und Datei gespeichert: ../01_Datensaetze/improved_cse-cic-ids-2018/Wednesday-28-02-2018.csv
+2024-10-21 19:31:14 - INFO - Start processing directory ../01_Datensaetze/improved_cic-ids-2017
+2024-10-21 19:31:14 - ERROR - Error reading ../01_Datensaetze/improved_cic-ids-2017/tuesday.csv: 'TextFileReader' object is not subscriptable
+2024-10-21 19:31:14 - ERROR - Error reading ../01_Datensaetze/improved_cic-ids-2017/wednesday.csv: 'TextFileReader' object is not subscriptable
+2024-10-21 19:31:14 - ERROR - Error reading ../01_Datensaetze/improved_cic-ids-2017/friday.csv: 'TextFileReader' object is not subscriptable
+2024-10-21 19:31:14 - ERROR - Error reading ../01_Datensaetze/improved_cic-ids-2017/monday.csv: 'TextFileReader' object is not subscriptable
+2024-10-21 19:31:14 - ERROR - Error reading ../01_Datensaetze/improved_cic-ids-2017/thursday.csv: 'TextFileReader' object is not subscriptable
+2024-10-21 19:31:14 - INFO - Successfully processed directory ../01_Datensaetze/improved_cic-ids-2017
+2024-10-21 19:31:18 - INFO - Start processing directory ../01_Datensaetze/improved_cse-cic-ids-2018
+2024-10-21 19:31:18 - ERROR - Error reading ../01_Datensaetze/improved_cse-cic-ids-2018/Thursday-01-03-2018.csv: 'TextFileReader' object is not subscriptable
+2024-10-21 19:31:18 - ERROR - Error reading ../01_Datensaetze/improved_cse-cic-ids-2018/Tuesday-20-02-2018.csv: 'TextFileReader' object is not subscriptable
+2024-10-21 19:31:18 - ERROR - Error reading ../01_Datensaetze/improved_cse-cic-ids-2018/Thursday-15-02-2018.csv: 'TextFileReader' object is not subscriptable
+2024-10-21 19:31:18 - ERROR - Error reading ../01_Datensaetze/improved_cse-cic-ids-2018/Thursday-22-02-2018.csv: 'TextFileReader' object is not subscriptable
+2024-10-21 19:31:18 - ERROR - Error reading ../01_Datensaetze/improved_cse-cic-ids-2018/Wednesday-21-02-2018.csv: 'TextFileReader' object is not subscriptable
+2024-10-21 19:31:18 - ERROR - Error reading ../01_Datensaetze/improved_cse-cic-ids-2018/Friday-23-02-2018.csv: 'TextFileReader' object is not subscriptable
+2024-10-21 19:31:18 - ERROR - Error reading ../01_Datensaetze/improved_cse-cic-ids-2018/Friday-16-02-2018.csv: 'TextFileReader' object is not subscriptable
+2024-10-21 19:31:18 - ERROR - Error reading ../01_Datensaetze/improved_cse-cic-ids-2018/Wednesday-14-02-2018.csv: 'TextFileReader' object is not subscriptable
+2024-10-21 19:31:18 - ERROR - Error reading ../01_Datensaetze/improved_cse-cic-ids-2018/Friday-02-03-2018.csv: 'TextFileReader' object is not subscriptable
+2024-10-21 19:31:18 - ERROR - Error reading ../01_Datensaetze/improved_cse-cic-ids-2018/Wednesday-28-02-2018.csv: 'TextFileReader' object is not subscriptable
+2024-10-21 19:31:18 - INFO - Successfully processed directory ../01_Datensaetze/improved_cse-cic-ids-2018
+2024-10-21 19:31:41 - INFO - Start processing directory ../01_Datensaetze/improved_cic-ids-2017
+2024-10-21 19:31:42 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/tuesday.csv. Found labels: ['BENIGN' 'FTP-Patator - Attempted' 'SSH-Bruteforce']
+2024-10-21 19:31:43 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/wednesday.csv. Found labels: ['BENIGN' 'DoS Slowloris' 'DoS Slowloris - Attempted' 'DoS Hulk'
+ 'DoS Hulk - Attempted' 'DoS GoldenEye' 'DoS GoldenEye - Attempted']
+2024-10-21 19:31:44 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/friday.csv. Found labels: ['BENIGN' 'Botnet Ares - Attempted' 'Botnet Ares' 'DDoS-LOIC-HTTP']
+2024-10-21 19:31:45 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/monday.csv. Found labels: ['BENIGN']
+2024-10-21 19:31:45 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/thursday.csv. Found labels: ['BENIGN' 'Web Attack - Brute Force - Attempted'
+ 'Web Attack - Brute Force' 'Infiltration - NMAP Portscan'
+ 'Web Attack - XSS - Attempted' 'Web Attack - XSS'
+ 'Web Attack - SQL Injection - Attempted' 'Web Attack - SQL Injection']
+2024-10-21 19:31:45 - INFO - Successfully processed directory ../01_Datensaetze/improved_cic-ids-2017
+2024-10-21 19:34:52 - INFO - Datei verarbeitet und gespeichert: ../01_Datensaetze/improved_cic-ids-2017/tuesday.csv
+2024-10-21 19:34:52 - INFO - Datei verarbeitet und gespeichert: ../01_Datensaetze/improved_cic-ids-2017/monday.csv
+2024-10-21 19:34:53 - INFO - Datei verarbeitet und gespeichert: ../01_Datensaetze/improved_cic-ids-2017/friday.csv
+2024-10-21 19:34:55 - INFO - Datei verarbeitet und gespeichert: ../01_Datensaetze/improved_cic-ids-2017/wednesday.csv
+2024-10-21 19:34:58 - INFO - Datei verarbeitet und gespeichert: ../01_Datensaetze/improved_cic-ids-2017/thursday.csv
+2024-10-21 19:35:09 - INFO - Start processing directory ../01_Datensaetze/improved_cic-ids-2017
+2024-10-21 19:35:12 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/tuesday.csv. Found labels: ['BENIGN' 'FTP-Patator - Attempted' 'SSH-Bruteforce']
+2024-10-21 19:35:13 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/wednesday.csv. Found labels: ['BENIGN' 'DoS Slowloris' 'DoS Slowloris - Attempted' 'DoS Hulk'
+ 'DoS Hulk - Attempted' 'DoS GoldenEye' 'DoS GoldenEye - Attempted']
+2024-10-21 19:35:15 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/friday.csv. Found labels: ['BENIGN' 'Botnet Ares - Attempted' 'Botnet Ares' 'DDoS-LOIC-HTTP']
+2024-10-21 19:35:15 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/monday.csv. Found labels: ['BENIGN']
+2024-10-21 19:35:17 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/thursday.csv. Found labels: ['BENIGN' 'Web Attack - Brute Force - Attempted'
+ 'Web Attack - Brute Force' 'Infiltration - NMAP Portscan'
+ 'Web Attack - XSS - Attempted' 'Web Attack - XSS'
+ 'Web Attack - SQL Injection - Attempted' 'Web Attack - SQL Injection']
+2024-10-21 19:35:17 - INFO - Successfully processed directory ../01_Datensaetze/improved_cic-ids-2017
+2024-10-21 20:06:43 - INFO - Start processing directory ../01_Datensaetze/improved_cic-ids-2017
+2024-10-21 20:10:37 - INFO - Successfully read ../01_Datensaetze/improved_cic-ids-2017/thursday.csv. Found labels: ['BENIGN' 'Web Attack - Brute Force - Attempted'
+ 'Web Attack - Brute Force' 'Infiltration - NMAP Portscan'
+ 'Web Attack - XSS - Attempted' 'Web Attack - XSS'
+ 'Web Attack - SQL Injection - Attempted' 'Web Attack - SQL Injection']
