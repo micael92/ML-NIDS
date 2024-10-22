@@ -1,0 +1,40 @@
+2024-10-22 17:49:05 - INFO - Start processing directory ../01_Datensaetze/improved_cse-cic-ids-2018
+2024-10-22 17:49:22 - INFO - Datei ../01_Datensaetze/improved_cse-cic-ids-2018/Thursday-15-02-2018.csv hat insgesamt 0 NaN-Werte.
+2024-10-22 17:49:23 - INFO - Datei ../01_Datensaetze/improved_cse-cic-ids-2018/Wednesday-21-02-2018.csv hat insgesamt 0 NaN-Werte.
+2024-10-22 17:49:24 - INFO - Datei ../01_Datensaetze/improved_cse-cic-ids-2018/Tuesday-20-02-2018.csv hat insgesamt 0 NaN-Werte.
+2024-10-22 17:49:24 - INFO - Datei ../01_Datensaetze/improved_cse-cic-ids-2018/Thursday-22-02-2018.csv hat insgesamt 0 NaN-Werte.
+2024-10-22 17:49:26 - INFO - Datei ../01_Datensaetze/improved_cse-cic-ids-2018/Thursday-01-03-2018.csv hat insgesamt 0 NaN-Werte.
+2024-10-22 17:49:38 - INFO - Datei ../01_Datensaetze/improved_cse-cic-ids-2018/Wednesday-14-02-2018.csv hat insgesamt 0 NaN-Werte.
+2024-10-22 17:49:41 - INFO - Datei ../01_Datensaetze/improved_cse-cic-ids-2018/Friday-23-02-2018.csv hat insgesamt 0 NaN-Werte.
+2024-10-22 17:49:43 - INFO - Datei ../01_Datensaetze/improved_cse-cic-ids-2018/Friday-02-03-2018.csv hat insgesamt 0 NaN-Werte.
+2024-10-22 17:49:44 - INFO - Datei ../01_Datensaetze/improved_cse-cic-ids-2018/Friday-16-02-2018.csv hat insgesamt 0 NaN-Werte.
+2024-10-22 17:49:45 - INFO - Datei ../01_Datensaetze/improved_cse-cic-ids-2018/Wednesday-28-02-2018.csv hat insgesamt 0 NaN-Werte.
+2024-10-22 17:49:45 - INFO - Verzeichnis ../01_Datensaetze/improved_cse-cic-ids-2018 hat insgesamt 0 NaN-Werte.
+2024-10-22 17:52:03 - INFO - Start processing directory ../01_Datensaetze/improved_cic-ids-2017
+2024-10-22 17:52:04 - INFO - Datei ../01_Datensaetze/improved_cic-ids-2017/tuesday.csv hat insgesamt 0 NaN-Werte.
+2024-10-22 17:52:04 - INFO - Datei ../01_Datensaetze/improved_cic-ids-2017/thursday.csv hat insgesamt 0 NaN-Werte.
+2024-10-22 17:52:04 - INFO - Datei ../01_Datensaetze/improved_cic-ids-2017/monday.csv hat insgesamt 0 NaN-Werte.
+2024-10-22 17:52:04 - INFO - Datei ../01_Datensaetze/improved_cic-ids-2017/friday.csv hat insgesamt 0 NaN-Werte.
+2024-10-22 17:52:05 - INFO - Datei ../01_Datensaetze/improved_cic-ids-2017/wednesday.csv hat insgesamt 0 NaN-Werte.
+2024-10-22 17:52:05 - INFO - Verzeichnis ../01_Datensaetze/improved_cic-ids-2017 hat insgesamt 0 NaN-Werte.
+2024-10-22 20:37:21 - ERROR - Fehler beim Verarbeiten der Datei ../01_Datensaetze/improved_cse-cic-ids-2018/Friday-02-03-2018 copy.csv: OneHotEncoder.__init__() got an unexpected keyword argument 'sparse'
+2024-10-22 20:41:57 - INFO - Datei ../01_Datensaetze/improved_cse-cic-ids-2018/Friday-02-03-2018 copy.csv wurde erfolgreich vorverarbeitet und gespeichert als ../01_Datensaetze/improved_cse-cic-ids-2018/Friday-02-03-2018 copy.csv.processed.csv.
+2024-10-22 22:03:42 - INFO - Start processing directory ../01_Datensaetze/improved_cse-cic-ids-2018
+2024-10-22 22:04:00 - INFO - Datei ../01_Datensaetze/improved_cse-cic-ids-2018/Thursday-15-02-2018.csv hat insgesamt 0 NaN-Werte.
+2024-10-22 22:04:02 - INFO - Datei ../01_Datensaetze/improved_cse-cic-ids-2018/Wednesday-21-02-2018.csv hat insgesamt 0 NaN-Werte.
+2024-10-22 22:04:02 - INFO - Datei ../01_Datensaetze/improved_cse-cic-ids-2018/Tuesday-20-02-2018.csv hat insgesamt 0 NaN-Werte.
+2024-10-22 22:04:03 - INFO - Datei ../01_Datensaetze/improved_cse-cic-ids-2018/Thursday-22-02-2018.csv hat insgesamt 0 NaN-Werte.
+2024-10-22 22:04:03 - INFO - Datei ../01_Datensaetze/improved_cse-cic-ids-2018/Thursday-01-03-2018.csv hat insgesamt 0 NaN-Werte.
+2024-10-22 22:04:17 - INFO - Datei ../01_Datensaetze/improved_cse-cic-ids-2018/Wednesday-14-02-2018.csv hat insgesamt 0 NaN-Werte.
+2024-10-22 22:04:20 - INFO - Datei ../01_Datensaetze/improved_cse-cic-ids-2018/Friday-23-02-2018.csv hat insgesamt 0 NaN-Werte.
+2024-10-22 22:04:21 - INFO - Datei ../01_Datensaetze/improved_cse-cic-ids-2018/Friday-02-03-2018.csv hat insgesamt 0 NaN-Werte.
+2024-10-22 22:04:23 - INFO - Datei ../01_Datensaetze/improved_cse-cic-ids-2018/Wednesday-28-02-2018.csv hat insgesamt 0 NaN-Werte.
+2024-10-22 22:04:23 - INFO - Datei ../01_Datensaetze/improved_cse-cic-ids-2018/Friday-16-02-2018.csv hat insgesamt 0 NaN-Werte.
+2024-10-22 22:04:25 - INFO - Verzeichnis ../01_Datensaetze/improved_cse-cic-ids-2018 hat insgesamt 0 NaN-Werte.
+2024-10-22 22:04:27 - INFO - Start processing directory ../01_Datensaetze/improved_cic-ids-2017
+2024-10-22 22:04:28 - INFO - Datei ../01_Datensaetze/improved_cic-ids-2017/tuesday.csv hat insgesamt 0 NaN-Werte.
+2024-10-22 22:04:28 - INFO - Datei ../01_Datensaetze/improved_cic-ids-2017/thursday.csv hat insgesamt 0 NaN-Werte.
+2024-10-22 22:04:28 - INFO - Datei ../01_Datensaetze/improved_cic-ids-2017/monday.csv hat insgesamt 0 NaN-Werte.
+2024-10-22 22:04:29 - INFO - Datei ../01_Datensaetze/improved_cic-ids-2017/friday.csv hat insgesamt 0 NaN-Werte.
+2024-10-22 22:04:29 - INFO - Datei ../01_Datensaetze/improved_cic-ids-2017/wednesday.csv hat insgesamt 0 NaN-Werte.
+2024-10-22 22:04:30 - INFO - Verzeichnis ../01_Datensaetze/improved_cic-ids-2017 hat insgesamt 0 NaN-Werte.
