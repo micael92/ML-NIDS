@@ -1,0 +1,73 @@
+2024-10-29 10:42:13 - INFO - None
+2024-10-29 10:44:58 - INFO - Class distribution
+Label
+BENIGN                          1582561
+DoS Hulk                         158468
+DDoS-LOIC-HTTP                    95144
+Infiltration - NMAP Portscan      71767
+DoS GoldenEye                      7567
+DoS Slowloris                      3859
+SSH-BruteForce                     2961
+Botnet Ares                         736
+Web Attack - Brute Force             73
+Web Attack - XSS                     18
+Web Attack - SQL                     13
+Name: count, dtype: int64
+2024-10-29 10:48:18 - INFO - Class distribution
+Label
+BENIGN                          1582561
+DoS Hulk                         158468
+DDoS-LOIC-HTTP                    95144
+Infiltration - NMAP Portscan      71767
+DoS GoldenEye                      7567
+DoS Slowloris                      3859
+SSH-BruteForce                     2961
+Botnet Ares                         736
+Web Attack - Brute Force             73
+Web Attack - XSS                     18
+Web Attack - SQL                     13
+Name: count, dtype: int64
+2024-10-29 11:22:21 - INFO - Class distribution
+Label
+0     1582561
+4      158468
+2       95144
+6       71767
+3        7567
+5        3859
+7        2961
+1         736
+8          73
+10         18
+9          13
+Name: count, dtype: int64
+2024-10-29 11:25:40 - INFO - Class distribution
+Label
+0     1582561
+4      158468
+2       95144
+6       71767
+3        7567
+5        3859
+7        2961
+1         736
+8          73
+10         18
+9          13
+Name: count, dtype: int64
+2024-10-29 11:48:47 - INFO - None
+2024-10-29 11:48:56 - INFO - Class distribution
+Label
+0     1582561
+4      158468
+2       95144
+6       71767
+3        7567
+5        3859
+7        2961
+1         736
+8          73
+10         18
+9          13
+Name: count, dtype: int64
+2024-10-29 11:50:21 - INFO - *** TRAINING START ***
