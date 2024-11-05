@@ -1,5 +1,4 @@
 01_Datensaetze/
 99_Archiv/
-03_Modell/cnn_model.h5
-03_Modell/label_encoder.pkl
-03_Modell/scaler.pkl
+*.h5
+*.pkl

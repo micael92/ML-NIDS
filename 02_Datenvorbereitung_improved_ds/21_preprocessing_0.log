@@ -1674,3 +1674,1104 @@ Categories (25, object): ['BENIGN', 'Infiltration - NMAP Portscan', 'Infiltratio
 2024-10-29 14:40:06 - INFO - Rows with infinite values successfully removed from DataFrame
 2024-10-29 14:40:06 - INFO - Rows with infinite values successfully removed from DataFrame
 2024-10-29 15:10:47 - INFO - DataFrame successfully saved to ../01_Datensaetze/improved_cse-cic-ids-2018/ids18_parquet_prep_0
+2024-10-30 13:22:25 - INFO - DataFrame successfully loaded from ../01_Datensaetze/improved_cic-ids-2017/ids17_parquet
+2024-10-30 13:22:26 - INFO - DataFrame successfully loaded from ../01_Datensaetze/improved_cse-cic-ids-2018/ids18_parquet
+2024-10-30 13:22:42 - INFO - Columns ['id', 'Flow ID', 'Src IP', 'Src Port', 'Dst IP', 'Timestamp', 'Attempted Category'] successfully dropped from DataFrame
+2024-10-30 13:22:47 - INFO - Columns ['id', 'Flow ID', 'Src IP', 'Src Port', 'Dst IP', 'Timestamp', 'Attempted Category'] successfully dropped from DataFrame
+2024-10-30 13:23:06 - INFO - Column 'Dst Port' successfully converted to dtype 'int32'
+2024-10-30 13:23:06 - INFO - Column 'Protocol' successfully converted to dtype 'category'
+2024-10-30 13:23:06 - INFO - Column 'Flow Duration' successfully converted to dtype 'int64'
+2024-10-30 13:23:06 - INFO - Column 'Total Fwd Packet' successfully converted to dtype 'int64'
+2024-10-30 13:23:06 - INFO - Column 'Total Bwd packets' successfully converted to dtype 'int64'
+2024-10-30 13:23:06 - INFO - Column 'Total Length of Fwd Packet' successfully converted to dtype 'float64'
+2024-10-30 13:23:06 - INFO - Column 'Total Length of Bwd Packet' successfully converted to dtype 'float64'
+2024-10-30 13:23:06 - INFO - Column 'Fwd Packet Length Max' successfully converted to dtype 'float32'
+2024-10-30 13:23:06 - INFO - Column 'Fwd Packet Length Min' successfully converted to dtype 'float32'
+2024-10-30 13:23:06 - INFO - Column 'Fwd Packet Length Mean' successfully converted to dtype 'float32'
+2024-10-30 13:23:06 - INFO - Column 'Fwd Packet Length Std' successfully converted to dtype 'float32'
+2024-10-30 13:23:06 - INFO - Column 'Bwd Packet Length Max' successfully converted to dtype 'float32'
+2024-10-30 13:23:06 - INFO - Column 'Bwd Packet Length Min' successfully converted to dtype 'float32'
+2024-10-30 13:23:06 - INFO - Column 'Bwd Packet Length Mean' successfully converted to dtype 'float32'
+2024-10-30 13:23:06 - INFO - Column 'Bwd Packet Length Std' successfully converted to dtype 'float32'
+2024-10-30 13:23:06 - INFO - Column 'Flow Bytes/s' successfully converted to dtype 'float32'
+2024-10-30 13:23:06 - INFO - Column 'Flow Packets/s' successfully converted to dtype 'float32'
+2024-10-30 13:23:06 - INFO - Column 'Flow IAT Mean' successfully converted to dtype 'float32'
+2024-10-30 13:23:06 - INFO - Column 'Flow IAT Std' successfully converted to dtype 'float32'
+2024-10-30 13:23:06 - INFO - Column 'Flow IAT Max' successfully converted to dtype 'float32'
+2024-10-30 13:23:06 - INFO - Column 'Flow IAT Min' successfully converted to dtype 'float32'
+2024-10-30 13:23:06 - INFO - Column 'Fwd IAT Total' successfully converted to dtype 'float32'
+2024-10-30 13:23:06 - INFO - Column 'Fwd IAT Mean' successfully converted to dtype 'float32'
+2024-10-30 13:23:06 - INFO - Column 'Fwd IAT Std' successfully converted to dtype 'float32'
+2024-10-30 13:23:06 - INFO - Column 'Fwd IAT Max' successfully converted to dtype 'float32'
+2024-10-30 13:23:06 - INFO - Column 'Fwd IAT Min' successfully converted to dtype 'float32'
+2024-10-30 13:23:06 - INFO - Column 'Bwd IAT Total' successfully converted to dtype 'float32'
+2024-10-30 13:23:06 - INFO - Column 'Bwd IAT Mean' successfully converted to dtype 'float32'
+2024-10-30 13:23:06 - INFO - Column 'Bwd IAT Std' successfully converted to dtype 'float32'
+2024-10-30 13:23:06 - INFO - Column 'Bwd IAT Max' successfully converted to dtype 'float32'
+2024-10-30 13:23:06 - INFO - Column 'Bwd IAT Min' successfully converted to dtype 'float32'
+2024-10-30 13:23:06 - INFO - Column 'Fwd PSH Flags' successfully converted to dtype 'int32'
+2024-10-30 13:23:06 - INFO - Column 'Bwd PSH Flags' successfully converted to dtype 'int32'
+2024-10-30 13:23:06 - INFO - Column 'Fwd URG Flags' successfully converted to dtype 'int32'
+2024-10-30 13:23:06 - INFO - Column 'Bwd URG Flags' successfully converted to dtype 'int32'
+2024-10-30 13:23:06 - INFO - Column 'Fwd RST Flags' successfully converted to dtype 'int32'
+2024-10-30 13:23:06 - INFO - Column 'Bwd RST Flags' successfully converted to dtype 'int32'
+2024-10-30 13:23:06 - INFO - Column 'Fwd Header Length' successfully converted to dtype 'int64'
+2024-10-30 13:23:06 - INFO - Column 'Bwd Header Length' successfully converted to dtype 'int64'
+2024-10-30 13:23:06 - INFO - Column 'Packet Length Min' successfully converted to dtype 'float32'
+2024-10-30 13:23:06 - INFO - Column 'Packet Length Max' successfully converted to dtype 'float32'
+2024-10-30 13:23:06 - INFO - Column 'Packet Length Mean' successfully converted to dtype 'float32'
+2024-10-30 13:23:06 - INFO - Column 'Packet Length Std' successfully converted to dtype 'float32'
+2024-10-30 13:23:06 - INFO - Column 'FIN Flag Count' successfully converted to dtype 'int32'
+2024-10-30 13:23:06 - INFO - Column 'SYN Flag Count' successfully converted to dtype 'int32'
+2024-10-30 13:23:06 - INFO - Column 'RST Flag Count' successfully converted to dtype 'int32'
+2024-10-30 13:23:06 - INFO - Column 'PSH Flag Count' successfully converted to dtype 'int32'
+2024-10-30 13:23:06 - INFO - Column 'ACK Flag Count' successfully converted to dtype 'int32'
+2024-10-30 13:23:06 - INFO - Column 'URG Flag Count' successfully converted to dtype 'int32'
+2024-10-30 13:23:06 - INFO - Column 'Label' successfully converted to dtype 'category'
+2024-10-30 13:23:10 - INFO - Column 'Dst Port' successfully converted to dtype 'int32'
+2024-10-30 13:23:10 - INFO - Column 'Protocol' successfully converted to dtype 'category'
+2024-10-30 13:23:10 - INFO - Column 'Flow Duration' successfully converted to dtype 'int64'
+2024-10-30 13:23:10 - INFO - Column 'Total Fwd Packet' successfully converted to dtype 'int64'
+2024-10-30 13:23:10 - INFO - Column 'Total Bwd packets' successfully converted to dtype 'int64'
+2024-10-30 13:23:10 - INFO - Column 'Total Length of Fwd Packet' successfully converted to dtype 'float64'
+2024-10-30 13:23:10 - INFO - Column 'Total Length of Bwd Packet' successfully converted to dtype 'float64'
+2024-10-30 13:23:10 - INFO - Column 'Fwd Packet Length Max' successfully converted to dtype 'float32'
+2024-10-30 13:23:10 - INFO - Column 'Fwd Packet Length Min' successfully converted to dtype 'float32'
+2024-10-30 13:23:10 - INFO - Column 'Fwd Packet Length Mean' successfully converted to dtype 'float32'
+2024-10-30 13:23:10 - INFO - Column 'Fwd Packet Length Std' successfully converted to dtype 'float32'
+2024-10-30 13:23:10 - INFO - Column 'Bwd Packet Length Max' successfully converted to dtype 'float32'
+2024-10-30 13:23:10 - INFO - Column 'Bwd Packet Length Min' successfully converted to dtype 'float32'
+2024-10-30 13:23:10 - INFO - Column 'Bwd Packet Length Mean' successfully converted to dtype 'float32'
+2024-10-30 13:23:10 - INFO - Column 'Bwd Packet Length Std' successfully converted to dtype 'float32'
+2024-10-30 13:23:10 - INFO - Column 'Flow Bytes/s' successfully converted to dtype 'float32'
+2024-10-30 13:23:10 - INFO - Column 'Flow Packets/s' successfully converted to dtype 'float32'
+2024-10-30 13:23:10 - INFO - Column 'Flow IAT Mean' successfully converted to dtype 'float32'
+2024-10-30 13:23:10 - INFO - Column 'Flow IAT Std' successfully converted to dtype 'float32'
+2024-10-30 13:23:10 - INFO - Column 'Flow IAT Max' successfully converted to dtype 'float32'
+2024-10-30 13:23:10 - INFO - Column 'Flow IAT Min' successfully converted to dtype 'float32'
+2024-10-30 13:23:10 - INFO - Column 'Fwd IAT Total' successfully converted to dtype 'float32'
+2024-10-30 13:23:10 - INFO - Column 'Fwd IAT Mean' successfully converted to dtype 'float32'
+2024-10-30 13:23:10 - INFO - Column 'Fwd IAT Std' successfully converted to dtype 'float32'
+2024-10-30 13:23:10 - INFO - Column 'Fwd IAT Max' successfully converted to dtype 'float32'
+2024-10-30 13:23:10 - INFO - Column 'Fwd IAT Min' successfully converted to dtype 'float32'
+2024-10-30 13:23:10 - INFO - Column 'Bwd IAT Total' successfully converted to dtype 'float32'
+2024-10-30 13:23:10 - INFO - Column 'Bwd IAT Mean' successfully converted to dtype 'float32'
+2024-10-30 13:23:10 - INFO - Column 'Bwd IAT Std' successfully converted to dtype 'float32'
+2024-10-30 13:23:10 - INFO - Column 'Bwd IAT Max' successfully converted to dtype 'float32'
+2024-10-30 13:23:10 - INFO - Column 'Bwd IAT Min' successfully converted to dtype 'float32'
+2024-10-30 13:23:10 - INFO - Column 'Fwd PSH Flags' successfully converted to dtype 'int32'
+2024-10-30 13:23:10 - INFO - Column 'Bwd PSH Flags' successfully converted to dtype 'int32'
+2024-10-30 13:23:10 - INFO - Column 'Fwd URG Flags' successfully converted to dtype 'int32'
+2024-10-30 13:23:10 - INFO - Column 'Bwd URG Flags' successfully converted to dtype 'int32'
+2024-10-30 13:23:10 - INFO - Column 'Fwd RST Flags' successfully converted to dtype 'int32'
+2024-10-30 13:23:10 - INFO - Column 'Bwd RST Flags' successfully converted to dtype 'int32'
+2024-10-30 13:23:10 - INFO - Column 'Fwd Header Length' successfully converted to dtype 'int64'
+2024-10-30 13:23:10 - INFO - Column 'Bwd Header Length' successfully converted to dtype 'int64'
+2024-10-30 13:23:10 - INFO - Column 'Packet Length Min' successfully converted to dtype 'float32'
+2024-10-30 13:23:10 - INFO - Column 'Packet Length Max' successfully converted to dtype 'float32'
+2024-10-30 13:23:10 - INFO - Column 'Packet Length Mean' successfully converted to dtype 'float32'
+2024-10-30 13:23:10 - INFO - Column 'Packet Length Std' successfully converted to dtype 'float32'
+2024-10-30 13:23:10 - INFO - Column 'FIN Flag Count' successfully converted to dtype 'int32'
+2024-10-30 13:23:10 - INFO - Column 'SYN Flag Count' successfully converted to dtype 'int32'
+2024-10-30 13:23:10 - INFO - Column 'RST Flag Count' successfully converted to dtype 'int32'
+2024-10-30 13:23:10 - INFO - Column 'PSH Flag Count' successfully converted to dtype 'int32'
+2024-10-30 13:23:10 - INFO - Column 'ACK Flag Count' successfully converted to dtype 'int32'
+2024-10-30 13:23:10 - INFO - Column 'URG Flag Count' successfully converted to dtype 'int32'
+2024-10-30 13:23:10 - INFO - Column 'Label' successfully converted to dtype 'category'
+2024-10-30 13:23:25 - INFO - Unique values in column 'Label': 0                                    Botnet
+1                                      DDoS
+2      Web Attack - Brute Force - Attempted
+3                   Infiltration - Portscan
+4                          DoS Slowhttptest
+0                        Botnet - Attempted
+1                                  Portscan
+2                          Web Attack - XSS
+3                               FTP-Patator
+4              DoS Slowhttptest - Attempted
+5                                  DoS Hulk
+6                                Heartbleed
+0                              Infiltration
+1                   FTP-Patator - Attempted
+2                             DoS Slowloris
+3                 DoS Slowloris - Attempted
+4                      DoS Hulk - Attempted
+5                             DoS GoldenEye
+6                 DoS GoldenEye - Attempted
+0                                    BENIGN
+1                  Web Attack - Brute Force
+2                  Infiltration - Attempted
+3              Web Attack - XSS - Attempted
+4    Web Attack - SQL Injection - Attempted
+5                Web Attack - SQL Injection
+6                               SSH-Patator
+7                   SSH-Patator - Attempted
+Name: Label, dtype: category
+Categories (27, object): ['BENIGN', 'Infiltration', 'Infiltration - Attempted', 'Infiltration - Portscan', ..., 'FTP-Patator', 'FTP-Patator - Attempted', 'SSH-Patator', 'SSH-Patator - Attempted']
+2024-10-30 13:23:36 - INFO - Unique values in column 'Label': 0                      FTP-BruteForce - Attempted
+1                    Infiltration - NMAP Portscan
+2                                   DDoS-LOIC-UDP
+0                                        DoS Hulk
+0                            DoS Hulk - Attempted
+1                 Infiltration - Dropbox Download
+2                       DoS GoldenEye - Attempted
+3                       DDoS-LOIC-UDP - Attempted
+0            Web Attack - Brute Force - Attempted
+1                                  DDoS-LOIC-HTTP
+0                                   DoS Slowloris
+0                                          BENIGN
+1                        Web Attack - Brute Force
+0                                Web Attack - SQL
+0                         Botnet Ares - Attempted
+0                                Web Attack - XSS
+1     Infiltration - Dropbox Download - Attempted
+0                                     Botnet Ares
+1                       DoS Slowloris - Attempted
+2                                  SSH-BruteForce
+3                                       DDoS-HOIC
+0                    Web Attack - SQL - Attempted
+0                    Web Attack - XSS - Attempted
+0    Infiltration - Communication Victim Attacker
+0                                   DoS GoldenEye
+Name: Label, dtype: category
+Categories (25, object): ['BENIGN', 'Infiltration - NMAP Portscan', 'DDoS-LOIC-HTTP', 'DDoS-LOIC-UDP', ..., 'Web Attack - XSS', 'Web Attack - XSS - Attempted', 'Botnet Ares', 'Botnet Ares - Attempted']
+2024-10-30 13:23:40 - INFO - Values in column 'Label' replaced according to mapping
+2024-10-30 13:24:22 - INFO - Rows with labels ('DoS Slowhttptest', 'DoS Slowhttptest - Attempted', 'FTP-Patator', 'Heartbleed', 'Infiltration', 'Infiltration - Attempted', 'Portscan', 'SSH-Patator - Attempted', 'Botnet Ares - Attempted', 'DoS GoldenEye - Attempted', 'DoS Hulk - Attempted', 'DoS Slowloris - Attempted', 'FTP-BruteForce - Attempted', 'Web Attack - Brute Force - Attempted', 'Web Attack - SQL - Attempted', 'Web Attack - XSS - Attempted') in column 'Label' successfully removed from DataFrame
+2024-10-30 13:24:24 - INFO - Rows with labels ('DDoS-HOIC', 'DDoS-LOIC-UDP', 'DDoS-LOIC-UDP - Attempted', 'Infiltration - Communication Victim Attacker', 'Infiltration - Dropbox Download', 'Infiltration - Dropbox Download - Attempted', 'Botnet Ares - Attempted', 'DoS GoldenEye - Attempted', 'DoS Hulk - Attempted', 'DoS Slowloris - Attempted', 'FTP-BruteForce - Attempted', 'Web Attack - Brute Force - Attempted', 'Web Attack - SQL - Attempted', 'Web Attack - XSS - Attempted') in column 'Label' successfully removed from DataFrame
+2024-10-30 13:24:33 - INFO - Unique values in column 'Label': 0                  DDoS-LOIC-HTTP
+1    Infiltration - NMAP Portscan
+2                Web Attack - SQL
+0                Web Attack - XSS
+1                        DoS Hulk
+0                     Botnet Ares
+1                  SSH-BruteForce
+2                   DoS Slowloris
+3                   DoS GoldenEye
+0                          BENIGN
+1        Web Attack - Brute Force
+Name: Label, dtype: object
+2024-10-30 13:24:36 - INFO - Unique values in column 'Label': 0    Infiltration - NMAP Portscan
+0                        DoS Hulk
+0                  DDoS-LOIC-HTTP
+0                   DoS Slowloris
+0                          BENIGN
+1        Web Attack - Brute Force
+0                Web Attack - SQL
+0                Web Attack - XSS
+0                     Botnet Ares
+1                  SSH-BruteForce
+0                   DoS GoldenEye
+Name: Label, dtype: category
+Categories (25, object): ['BENIGN', 'Infiltration - NMAP Portscan', 'Infiltration - Communication Victim Attacker', 'Infiltration - Dropbox Download', ..., 'SSH-BruteForce', 'Botnet Ares', 'Botnet Ares - Attempted', 'DDoS-HOIC']
+2024-10-30 13:25:28 - INFO - Rows with infinite values successfully removed from DataFrame
+2024-10-30 13:25:30 - INFO - Rows with infinite values successfully removed from DataFrame
+2024-10-30 14:24:03 - INFO - DataFrame successfully loaded from ../01_Datensaetze/improved_cic-ids-2017/ids17_parquet
+2024-10-30 14:24:04 - INFO - DataFrame successfully loaded from ../01_Datensaetze/improved_cse-cic-ids-2018/ids18_parquet
+2024-10-30 14:24:32 - INFO - Columns ['id', 'Flow ID', 'Src IP', 'Src Port', 'Dst IP', 'Timestamp', 'Attempted Category'] successfully dropped from DataFrame
+2024-10-30 14:24:33 - INFO - Columns ['id', 'Flow ID', 'Src IP', 'Src Port', 'Dst IP', 'Timestamp', 'Attempted Category'] successfully dropped from DataFrame
+2024-10-30 14:24:41 - INFO - Column 'Dst Port' successfully converted to dtype 'int32'
+2024-10-30 14:24:41 - INFO - Column 'Protocol' successfully converted to dtype 'category'
+2024-10-30 14:24:41 - INFO - Column 'Flow Duration' successfully converted to dtype 'int64'
+2024-10-30 14:24:41 - INFO - Column 'Total Fwd Packet' successfully converted to dtype 'int64'
+2024-10-30 14:24:41 - INFO - Column 'Total Bwd packets' successfully converted to dtype 'int64'
+2024-10-30 14:24:41 - INFO - Column 'Total Length of Fwd Packet' successfully converted to dtype 'float64'
+2024-10-30 14:24:41 - INFO - Column 'Total Length of Bwd Packet' successfully converted to dtype 'float64'
+2024-10-30 14:24:41 - INFO - Column 'Fwd Packet Length Max' successfully converted to dtype 'float32'
+2024-10-30 14:24:41 - INFO - Column 'Fwd Packet Length Min' successfully converted to dtype 'float32'
+2024-10-30 14:24:41 - INFO - Column 'Fwd Packet Length Mean' successfully converted to dtype 'float32'
+2024-10-30 14:24:41 - INFO - Column 'Fwd Packet Length Std' successfully converted to dtype 'float32'
+2024-10-30 14:24:41 - INFO - Column 'Bwd Packet Length Max' successfully converted to dtype 'float32'
+2024-10-30 14:24:41 - INFO - Column 'Bwd Packet Length Min' successfully converted to dtype 'float32'
+2024-10-30 14:24:41 - INFO - Column 'Bwd Packet Length Mean' successfully converted to dtype 'float32'
+2024-10-30 14:24:41 - INFO - Column 'Bwd Packet Length Std' successfully converted to dtype 'float32'
+2024-10-30 14:24:41 - INFO - Column 'Flow Bytes/s' successfully converted to dtype 'float32'
+2024-10-30 14:24:41 - INFO - Column 'Flow Packets/s' successfully converted to dtype 'float32'
+2024-10-30 14:24:41 - INFO - Column 'Flow IAT Mean' successfully converted to dtype 'float32'
+2024-10-30 14:24:41 - INFO - Column 'Flow IAT Std' successfully converted to dtype 'float32'
+2024-10-30 14:24:41 - INFO - Column 'Flow IAT Max' successfully converted to dtype 'float32'
+2024-10-30 14:24:41 - INFO - Column 'Flow IAT Min' successfully converted to dtype 'float32'
+2024-10-30 14:24:41 - INFO - Column 'Fwd IAT Total' successfully converted to dtype 'float32'
+2024-10-30 14:24:41 - INFO - Column 'Fwd IAT Mean' successfully converted to dtype 'float32'
+2024-10-30 14:24:41 - INFO - Column 'Fwd IAT Std' successfully converted to dtype 'float32'
+2024-10-30 14:24:41 - INFO - Column 'Fwd IAT Max' successfully converted to dtype 'float32'
+2024-10-30 14:24:41 - INFO - Column 'Fwd IAT Min' successfully converted to dtype 'float32'
+2024-10-30 14:24:41 - INFO - Column 'Bwd IAT Total' successfully converted to dtype 'float32'
+2024-10-30 14:24:41 - INFO - Column 'Bwd IAT Mean' successfully converted to dtype 'float32'
+2024-10-30 14:24:41 - INFO - Column 'Bwd IAT Std' successfully converted to dtype 'float32'
+2024-10-30 14:24:41 - INFO - Column 'Bwd IAT Max' successfully converted to dtype 'float32'
+2024-10-30 14:24:41 - INFO - Column 'Bwd IAT Min' successfully converted to dtype 'float32'
+2024-10-30 14:24:41 - INFO - Column 'Fwd PSH Flags' successfully converted to dtype 'int32'
+2024-10-30 14:24:41 - INFO - Column 'Bwd PSH Flags' successfully converted to dtype 'int32'
+2024-10-30 14:24:41 - INFO - Column 'Fwd URG Flags' successfully converted to dtype 'int32'
+2024-10-30 14:24:41 - INFO - Column 'Bwd URG Flags' successfully converted to dtype 'int32'
+2024-10-30 14:24:41 - INFO - Column 'Fwd RST Flags' successfully converted to dtype 'int32'
+2024-10-30 14:24:41 - INFO - Column 'Bwd RST Flags' successfully converted to dtype 'int32'
+2024-10-30 14:24:41 - INFO - Column 'Fwd Header Length' successfully converted to dtype 'int64'
+2024-10-30 14:24:41 - INFO - Column 'Bwd Header Length' successfully converted to dtype 'int64'
+2024-10-30 14:24:41 - INFO - Column 'Packet Length Min' successfully converted to dtype 'float32'
+2024-10-30 14:24:41 - INFO - Column 'Packet Length Max' successfully converted to dtype 'float32'
+2024-10-30 14:24:41 - INFO - Column 'Packet Length Mean' successfully converted to dtype 'float32'
+2024-10-30 14:24:41 - INFO - Column 'Packet Length Std' successfully converted to dtype 'float32'
+2024-10-30 14:24:41 - INFO - Column 'FIN Flag Count' successfully converted to dtype 'int32'
+2024-10-30 14:24:41 - INFO - Column 'SYN Flag Count' successfully converted to dtype 'int32'
+2024-10-30 14:24:41 - INFO - Column 'RST Flag Count' successfully converted to dtype 'int32'
+2024-10-30 14:24:41 - INFO - Column 'PSH Flag Count' successfully converted to dtype 'int32'
+2024-10-30 14:24:41 - INFO - Column 'ACK Flag Count' successfully converted to dtype 'int32'
+2024-10-30 14:24:41 - INFO - Column 'URG Flag Count' successfully converted to dtype 'int32'
+2024-10-30 14:24:41 - INFO - Column 'Label' successfully converted to dtype 'category'
+2024-10-30 14:24:43 - INFO - Column 'Dst Port' successfully converted to dtype 'int32'
+2024-10-30 14:24:43 - INFO - Column 'Protocol' successfully converted to dtype 'category'
+2024-10-30 14:24:43 - INFO - Column 'Flow Duration' successfully converted to dtype 'int64'
+2024-10-30 14:24:43 - INFO - Column 'Total Fwd Packet' successfully converted to dtype 'int64'
+2024-10-30 14:24:43 - INFO - Column 'Total Bwd packets' successfully converted to dtype 'int64'
+2024-10-30 14:24:43 - INFO - Column 'Total Length of Fwd Packet' successfully converted to dtype 'float64'
+2024-10-30 14:24:43 - INFO - Column 'Total Length of Bwd Packet' successfully converted to dtype 'float64'
+2024-10-30 14:24:43 - INFO - Column 'Fwd Packet Length Max' successfully converted to dtype 'float32'
+2024-10-30 14:24:43 - INFO - Column 'Fwd Packet Length Min' successfully converted to dtype 'float32'
+2024-10-30 14:24:43 - INFO - Column 'Fwd Packet Length Mean' successfully converted to dtype 'float32'
+2024-10-30 14:24:43 - INFO - Column 'Fwd Packet Length Std' successfully converted to dtype 'float32'
+2024-10-30 14:24:43 - INFO - Column 'Bwd Packet Length Max' successfully converted to dtype 'float32'
+2024-10-30 14:24:43 - INFO - Column 'Bwd Packet Length Min' successfully converted to dtype 'float32'
+2024-10-30 14:24:43 - INFO - Column 'Bwd Packet Length Mean' successfully converted to dtype 'float32'
+2024-10-30 14:24:43 - INFO - Column 'Bwd Packet Length Std' successfully converted to dtype 'float32'
+2024-10-30 14:24:43 - INFO - Column 'Flow Bytes/s' successfully converted to dtype 'float32'
+2024-10-30 14:24:43 - INFO - Column 'Flow Packets/s' successfully converted to dtype 'float32'
+2024-10-30 14:24:43 - INFO - Column 'Flow IAT Mean' successfully converted to dtype 'float32'
+2024-10-30 14:24:43 - INFO - Column 'Flow IAT Std' successfully converted to dtype 'float32'
+2024-10-30 14:24:43 - INFO - Column 'Flow IAT Max' successfully converted to dtype 'float32'
+2024-10-30 14:24:43 - INFO - Column 'Flow IAT Min' successfully converted to dtype 'float32'
+2024-10-30 14:24:43 - INFO - Column 'Fwd IAT Total' successfully converted to dtype 'float32'
+2024-10-30 14:24:43 - INFO - Column 'Fwd IAT Mean' successfully converted to dtype 'float32'
+2024-10-30 14:24:43 - INFO - Column 'Fwd IAT Std' successfully converted to dtype 'float32'
+2024-10-30 14:24:43 - INFO - Column 'Fwd IAT Max' successfully converted to dtype 'float32'
+2024-10-30 14:24:43 - INFO - Column 'Fwd IAT Min' successfully converted to dtype 'float32'
+2024-10-30 14:24:43 - INFO - Column 'Bwd IAT Total' successfully converted to dtype 'float32'
+2024-10-30 14:24:43 - INFO - Column 'Bwd IAT Mean' successfully converted to dtype 'float32'
+2024-10-30 14:24:43 - INFO - Column 'Bwd IAT Std' successfully converted to dtype 'float32'
+2024-10-30 14:24:43 - INFO - Column 'Bwd IAT Max' successfully converted to dtype 'float32'
+2024-10-30 14:24:43 - INFO - Column 'Bwd IAT Min' successfully converted to dtype 'float32'
+2024-10-30 14:24:43 - INFO - Column 'Fwd PSH Flags' successfully converted to dtype 'int32'
+2024-10-30 14:24:43 - INFO - Column 'Bwd PSH Flags' successfully converted to dtype 'int32'
+2024-10-30 14:24:43 - INFO - Column 'Fwd URG Flags' successfully converted to dtype 'int32'
+2024-10-30 14:24:43 - INFO - Column 'Bwd URG Flags' successfully converted to dtype 'int32'
+2024-10-30 14:24:43 - INFO - Column 'Fwd RST Flags' successfully converted to dtype 'int32'
+2024-10-30 14:24:43 - INFO - Column 'Bwd RST Flags' successfully converted to dtype 'int32'
+2024-10-30 14:24:43 - INFO - Column 'Fwd Header Length' successfully converted to dtype 'int64'
+2024-10-30 14:24:43 - INFO - Column 'Bwd Header Length' successfully converted to dtype 'int64'
+2024-10-30 14:24:43 - INFO - Column 'Packet Length Min' successfully converted to dtype 'float32'
+2024-10-30 14:24:43 - INFO - Column 'Packet Length Max' successfully converted to dtype 'float32'
+2024-10-30 14:24:43 - INFO - Column 'Packet Length Mean' successfully converted to dtype 'float32'
+2024-10-30 14:24:43 - INFO - Column 'Packet Length Std' successfully converted to dtype 'float32'
+2024-10-30 14:24:43 - INFO - Column 'FIN Flag Count' successfully converted to dtype 'int32'
+2024-10-30 14:24:43 - INFO - Column 'SYN Flag Count' successfully converted to dtype 'int32'
+2024-10-30 14:24:43 - INFO - Column 'RST Flag Count' successfully converted to dtype 'int32'
+2024-10-30 14:24:43 - INFO - Column 'PSH Flag Count' successfully converted to dtype 'int32'
+2024-10-30 14:24:43 - INFO - Column 'ACK Flag Count' successfully converted to dtype 'int32'
+2024-10-30 14:24:43 - INFO - Column 'URG Flag Count' successfully converted to dtype 'int32'
+2024-10-30 14:24:43 - INFO - Column 'Label' successfully converted to dtype 'category'
+2024-10-30 14:24:56 - INFO - Values in column 'Label' replaced according to mapping
+2024-10-30 14:25:05 - INFO - Unique values in column 'Label': 0                          DDoS-LOIC-HTTP
+1    Web Attack - Brute Force - Attempted
+2            Infiltration - NMAP Portscan
+3                        Web Attack - SQL
+4              FTP-BruteForce - Attempted
+5                        DoS Slowhttptest
+0                                Portscan
+1                        Web Attack - XSS
+2                             FTP-Patator
+3            DoS Slowhttptest - Attempted
+4                                DoS Hulk
+5                              Heartbleed
+0                 Botnet Ares - Attempted
+1                             Botnet Ares
+2                            Infiltration
+3                          SSH-BruteForce
+4                           DoS Slowloris
+5               DoS Slowloris - Attempted
+6                    DoS Hulk - Attempted
+7                           DoS GoldenEye
+8               DoS GoldenEye - Attempted
+0                                  BENIGN
+1                Web Attack - Brute Force
+2                Infiltration - Attempted
+3            Web Attack - XSS - Attempted
+4            Web Attack - SQL - Attempted
+5                 SSH-Patator - Attempted
+Name: Label, dtype: object
+2024-10-30 14:25:09 - INFO - Unique values in column 'Label': 0                      FTP-BruteForce - Attempted
+1                    Infiltration - NMAP Portscan
+2                                   DDoS-LOIC-UDP
+0                                        DoS Hulk
+0                            DoS Hulk - Attempted
+1                 Infiltration - Dropbox Download
+2                       DoS GoldenEye - Attempted
+3                       DDoS-LOIC-UDP - Attempted
+0            Web Attack - Brute Force - Attempted
+1                                  DDoS-LOIC-HTTP
+0                                   DoS Slowloris
+0                                          BENIGN
+1                        Web Attack - Brute Force
+0                                Web Attack - SQL
+0                         Botnet Ares - Attempted
+0                                Web Attack - XSS
+1     Infiltration - Dropbox Download - Attempted
+0                                     Botnet Ares
+1                       DoS Slowloris - Attempted
+2                                  SSH-BruteForce
+3                                       DDoS-HOIC
+0                    Web Attack - SQL - Attempted
+0                    Web Attack - XSS - Attempted
+0    Infiltration - Communication Victim Attacker
+0                                   DoS GoldenEye
+Name: Label, dtype: category
+Categories (25, object): ['BENIGN', 'Infiltration - NMAP Portscan', 'FTP-BruteForce - Attempted', 'SSH-BruteForce', ..., 'Web Attack - XSS', 'Web Attack - XSS - Attempted', 'Botnet Ares', 'Botnet Ares - Attempted']
+2024-10-30 14:25:23 - INFO - Rows with labels ('DoS Slowhttptest', 'DoS Slowhttptest - Attempted', 'FTP-Patator', 'Heartbleed', 'Infiltration', 'Infiltration - Attempted', 'Portscan', 'SSH-Patator - Attempted', 'Botnet Ares - Attempted', 'DoS GoldenEye - Attempted', 'DoS Hulk - Attempted', 'DoS Slowloris - Attempted', 'FTP-BruteForce - Attempted', 'Web Attack - Brute Force - Attempted', 'Web Attack - SQL - Attempted', 'Web Attack - XSS - Attempted') in column 'Label' successfully removed from DataFrame
+2024-10-30 14:25:25 - INFO - Rows with labels ('DDoS-HOIC', 'DDoS-LOIC-UDP', 'DDoS-LOIC-UDP - Attempted', 'Infiltration - Communication Victim Attacker', 'Infiltration - Dropbox Download', 'Infiltration - Dropbox Download - Attempted', 'Botnet Ares - Attempted', 'DoS GoldenEye - Attempted', 'DoS Hulk - Attempted', 'DoS Slowloris - Attempted', 'FTP-BruteForce - Attempted', 'Web Attack - Brute Force - Attempted', 'Web Attack - SQL - Attempted', 'Web Attack - XSS - Attempted') in column 'Label' successfully removed from DataFrame
+2024-10-30 14:25:36 - INFO - Rows with infinite values successfully removed from DataFrame
+2024-10-30 14:25:37 - INFO - Rows with infinite values successfully removed from DataFrame
+2024-10-30 14:52:00 - INFO - DataFrame successfully loaded from ../01_Datensaetze/improved_cic-ids-2017/ids17_parquet
+2024-10-30 14:52:02 - INFO - DataFrame successfully loaded from ../01_Datensaetze/improved_cse-cic-ids-2018/ids18_parquet
+2024-10-30 14:52:49 - INFO - Columns ['id', 'Flow ID', 'Src IP', 'Src Port', 'Dst IP', 'Timestamp', 'Attempted Category'] successfully dropped from DataFrame
+2024-10-30 14:52:49 - INFO - Columns ['id', 'Flow ID', 'Src IP', 'Src Port', 'Dst IP', 'Timestamp', 'Attempted Category'] successfully dropped from DataFrame
+2024-10-30 14:53:14 - INFO - Column 'Dst Port' successfully converted to dtype 'int32'
+2024-10-30 14:53:14 - INFO - Column 'Protocol' successfully converted to dtype 'category'
+2024-10-30 14:53:14 - INFO - Column 'Flow Duration' successfully converted to dtype 'int64'
+2024-10-30 14:53:14 - INFO - Column 'Total Fwd Packet' successfully converted to dtype 'int64'
+2024-10-30 14:53:14 - INFO - Column 'Total Bwd packets' successfully converted to dtype 'int64'
+2024-10-30 14:53:14 - INFO - Column 'Total Length of Fwd Packet' successfully converted to dtype 'float64'
+2024-10-30 14:53:14 - INFO - Column 'Total Length of Bwd Packet' successfully converted to dtype 'float64'
+2024-10-30 14:53:14 - INFO - Column 'Fwd Packet Length Max' successfully converted to dtype 'float32'
+2024-10-30 14:53:14 - INFO - Column 'Fwd Packet Length Min' successfully converted to dtype 'float32'
+2024-10-30 14:53:14 - INFO - Column 'Fwd Packet Length Mean' successfully converted to dtype 'float32'
+2024-10-30 14:53:14 - INFO - Column 'Fwd Packet Length Std' successfully converted to dtype 'float32'
+2024-10-30 14:53:14 - INFO - Column 'Bwd Packet Length Max' successfully converted to dtype 'float32'
+2024-10-30 14:53:14 - INFO - Column 'Bwd Packet Length Min' successfully converted to dtype 'float32'
+2024-10-30 14:53:14 - INFO - Column 'Bwd Packet Length Mean' successfully converted to dtype 'float32'
+2024-10-30 14:53:14 - INFO - Column 'Bwd Packet Length Std' successfully converted to dtype 'float32'
+2024-10-30 14:53:14 - INFO - Column 'Flow Bytes/s' successfully converted to dtype 'float32'
+2024-10-30 14:53:14 - INFO - Column 'Flow Packets/s' successfully converted to dtype 'float32'
+2024-10-30 14:53:14 - INFO - Column 'Flow IAT Mean' successfully converted to dtype 'float32'
+2024-10-30 14:53:14 - INFO - Column 'Flow IAT Std' successfully converted to dtype 'float32'
+2024-10-30 14:53:14 - INFO - Column 'Flow IAT Max' successfully converted to dtype 'float32'
+2024-10-30 14:53:14 - INFO - Column 'Flow IAT Min' successfully converted to dtype 'float32'
+2024-10-30 14:53:14 - INFO - Column 'Fwd IAT Total' successfully converted to dtype 'float32'
+2024-10-30 14:53:14 - INFO - Column 'Fwd IAT Mean' successfully converted to dtype 'float32'
+2024-10-30 14:53:14 - INFO - Column 'Fwd IAT Std' successfully converted to dtype 'float32'
+2024-10-30 14:53:14 - INFO - Column 'Fwd IAT Max' successfully converted to dtype 'float32'
+2024-10-30 14:53:14 - INFO - Column 'Fwd IAT Min' successfully converted to dtype 'float32'
+2024-10-30 14:53:14 - INFO - Column 'Bwd IAT Total' successfully converted to dtype 'float32'
+2024-10-30 14:53:14 - INFO - Column 'Bwd IAT Mean' successfully converted to dtype 'float32'
+2024-10-30 14:53:14 - INFO - Column 'Bwd IAT Std' successfully converted to dtype 'float32'
+2024-10-30 14:53:14 - INFO - Column 'Bwd IAT Max' successfully converted to dtype 'float32'
+2024-10-30 14:53:14 - INFO - Column 'Bwd IAT Min' successfully converted to dtype 'float32'
+2024-10-30 14:53:14 - INFO - Column 'Fwd PSH Flags' successfully converted to dtype 'int32'
+2024-10-30 14:53:14 - INFO - Column 'Bwd PSH Flags' successfully converted to dtype 'int32'
+2024-10-30 14:53:14 - INFO - Column 'Fwd URG Flags' successfully converted to dtype 'int32'
+2024-10-30 14:53:14 - INFO - Column 'Bwd URG Flags' successfully converted to dtype 'int32'
+2024-10-30 14:53:14 - INFO - Column 'Fwd RST Flags' successfully converted to dtype 'int32'
+2024-10-30 14:53:14 - INFO - Column 'Bwd RST Flags' successfully converted to dtype 'int32'
+2024-10-30 14:53:14 - INFO - Column 'Fwd Header Length' successfully converted to dtype 'int64'
+2024-10-30 14:53:14 - INFO - Column 'Bwd Header Length' successfully converted to dtype 'int64'
+2024-10-30 14:53:14 - INFO - Column 'Packet Length Min' successfully converted to dtype 'float32'
+2024-10-30 14:53:14 - INFO - Column 'Packet Length Max' successfully converted to dtype 'float32'
+2024-10-30 14:53:14 - INFO - Column 'Packet Length Mean' successfully converted to dtype 'float32'
+2024-10-30 14:53:14 - INFO - Column 'Packet Length Std' successfully converted to dtype 'float32'
+2024-10-30 14:53:14 - INFO - Column 'FIN Flag Count' successfully converted to dtype 'int32'
+2024-10-30 14:53:14 - INFO - Column 'SYN Flag Count' successfully converted to dtype 'int32'
+2024-10-30 14:53:14 - INFO - Column 'RST Flag Count' successfully converted to dtype 'int32'
+2024-10-30 14:53:14 - INFO - Column 'PSH Flag Count' successfully converted to dtype 'int32'
+2024-10-30 14:53:14 - INFO - Column 'ACK Flag Count' successfully converted to dtype 'int32'
+2024-10-30 14:53:14 - INFO - Column 'URG Flag Count' successfully converted to dtype 'int32'
+2024-10-30 14:53:14 - INFO - Column 'Label' successfully converted to dtype 'category'
+2024-10-30 14:53:14 - INFO - Column 'Dst Port' successfully converted to dtype 'int32'
+2024-10-30 14:53:14 - INFO - Column 'Protocol' successfully converted to dtype 'category'
+2024-10-30 14:53:14 - INFO - Column 'Flow Duration' successfully converted to dtype 'int64'
+2024-10-30 14:53:14 - INFO - Column 'Total Fwd Packet' successfully converted to dtype 'int64'
+2024-10-30 14:53:14 - INFO - Column 'Total Bwd packets' successfully converted to dtype 'int64'
+2024-10-30 14:53:14 - INFO - Column 'Total Length of Fwd Packet' successfully converted to dtype 'float64'
+2024-10-30 14:53:14 - INFO - Column 'Total Length of Bwd Packet' successfully converted to dtype 'float64'
+2024-10-30 14:53:14 - INFO - Column 'Fwd Packet Length Max' successfully converted to dtype 'float32'
+2024-10-30 14:53:14 - INFO - Column 'Fwd Packet Length Min' successfully converted to dtype 'float32'
+2024-10-30 14:53:14 - INFO - Column 'Fwd Packet Length Mean' successfully converted to dtype 'float32'
+2024-10-30 14:53:14 - INFO - Column 'Fwd Packet Length Std' successfully converted to dtype 'float32'
+2024-10-30 14:53:14 - INFO - Column 'Bwd Packet Length Max' successfully converted to dtype 'float32'
+2024-10-30 14:53:14 - INFO - Column 'Bwd Packet Length Min' successfully converted to dtype 'float32'
+2024-10-30 14:53:14 - INFO - Column 'Bwd Packet Length Mean' successfully converted to dtype 'float32'
+2024-10-30 14:53:15 - INFO - Column 'Bwd Packet Length Std' successfully converted to dtype 'float32'
+2024-10-30 14:53:15 - INFO - Column 'Flow Bytes/s' successfully converted to dtype 'float32'
+2024-10-30 14:53:15 - INFO - Column 'Flow Packets/s' successfully converted to dtype 'float32'
+2024-10-30 14:53:15 - INFO - Column 'Flow IAT Mean' successfully converted to dtype 'float32'
+2024-10-30 14:53:15 - INFO - Column 'Flow IAT Std' successfully converted to dtype 'float32'
+2024-10-30 14:53:15 - INFO - Column 'Flow IAT Max' successfully converted to dtype 'float32'
+2024-10-30 14:53:15 - INFO - Column 'Flow IAT Min' successfully converted to dtype 'float32'
+2024-10-30 14:53:15 - INFO - Column 'Fwd IAT Total' successfully converted to dtype 'float32'
+2024-10-30 14:53:15 - INFO - Column 'Fwd IAT Mean' successfully converted to dtype 'float32'
+2024-10-30 14:53:15 - INFO - Column 'Fwd IAT Std' successfully converted to dtype 'float32'
+2024-10-30 14:53:15 - INFO - Column 'Fwd IAT Max' successfully converted to dtype 'float32'
+2024-10-30 14:53:15 - INFO - Column 'Fwd IAT Min' successfully converted to dtype 'float32'
+2024-10-30 14:53:15 - INFO - Column 'Bwd IAT Total' successfully converted to dtype 'float32'
+2024-10-30 14:53:15 - INFO - Column 'Bwd IAT Mean' successfully converted to dtype 'float32'
+2024-10-30 14:53:15 - INFO - Column 'Bwd IAT Std' successfully converted to dtype 'float32'
+2024-10-30 14:53:15 - INFO - Column 'Bwd IAT Max' successfully converted to dtype 'float32'
+2024-10-30 14:53:15 - INFO - Column 'Bwd IAT Min' successfully converted to dtype 'float32'
+2024-10-30 14:53:15 - INFO - Column 'Fwd PSH Flags' successfully converted to dtype 'int32'
+2024-10-30 14:53:15 - INFO - Column 'Bwd PSH Flags' successfully converted to dtype 'int32'
+2024-10-30 14:53:15 - INFO - Column 'Fwd URG Flags' successfully converted to dtype 'int32'
+2024-10-30 14:53:15 - INFO - Column 'Bwd URG Flags' successfully converted to dtype 'int32'
+2024-10-30 14:53:15 - INFO - Column 'Fwd RST Flags' successfully converted to dtype 'int32'
+2024-10-30 14:53:15 - INFO - Column 'Bwd RST Flags' successfully converted to dtype 'int32'
+2024-10-30 14:53:15 - INFO - Column 'Fwd Header Length' successfully converted to dtype 'int64'
+2024-10-30 14:53:15 - INFO - Column 'Bwd Header Length' successfully converted to dtype 'int64'
+2024-10-30 14:53:15 - INFO - Column 'Packet Length Min' successfully converted to dtype 'float32'
+2024-10-30 14:53:15 - INFO - Column 'Packet Length Max' successfully converted to dtype 'float32'
+2024-10-30 14:53:15 - INFO - Column 'Packet Length Mean' successfully converted to dtype 'float32'
+2024-10-30 14:53:15 - INFO - Column 'Packet Length Std' successfully converted to dtype 'float32'
+2024-10-30 14:53:15 - INFO - Column 'FIN Flag Count' successfully converted to dtype 'int32'
+2024-10-30 14:53:15 - INFO - Column 'SYN Flag Count' successfully converted to dtype 'int32'
+2024-10-30 14:53:15 - INFO - Column 'RST Flag Count' successfully converted to dtype 'int32'
+2024-10-30 14:53:15 - INFO - Column 'PSH Flag Count' successfully converted to dtype 'int32'
+2024-10-30 14:53:15 - INFO - Column 'ACK Flag Count' successfully converted to dtype 'int32'
+2024-10-30 14:53:15 - INFO - Column 'URG Flag Count' successfully converted to dtype 'int32'
+2024-10-30 14:53:15 - INFO - Column 'Label' successfully converted to dtype 'category'
+2024-10-30 14:54:28 - INFO - Unique values in column 'Label': 0                                    Botnet
+1                                      DDoS
+2      Web Attack - Brute Force - Attempted
+3                   Infiltration - Portscan
+4                          DoS Slowhttptest
+0                        Botnet - Attempted
+1                                  Portscan
+2                          Web Attack - XSS
+3                               FTP-Patator
+4              DoS Slowhttptest - Attempted
+5                                  DoS Hulk
+6                                Heartbleed
+0                              Infiltration
+1                   FTP-Patator - Attempted
+2                             DoS Slowloris
+3                 DoS Slowloris - Attempted
+4                      DoS Hulk - Attempted
+5                             DoS GoldenEye
+6                 DoS GoldenEye - Attempted
+0                                    BENIGN
+1                  Web Attack - Brute Force
+2                  Infiltration - Attempted
+3              Web Attack - XSS - Attempted
+4    Web Attack - SQL Injection - Attempted
+5                Web Attack - SQL Injection
+6                               SSH-Patator
+7                   SSH-Patator - Attempted
+Name: Label, dtype: category
+Categories (27, object): ['BENIGN', 'Infiltration', 'Infiltration - Attempted', 'Infiltration - Portscan', ..., 'Botnet', 'Botnet - Attempted', 'DDoS', 'Portscan']
+2024-10-30 14:54:30 - INFO - Unique values in column 'Label': 0                      FTP-BruteForce - Attempted
+1                    Infiltration - NMAP Portscan
+2                                   DDoS-LOIC-UDP
+0                                        DoS Hulk
+0                            DoS Hulk - Attempted
+1                 Infiltration - Dropbox Download
+2                       DoS GoldenEye - Attempted
+3                       DDoS-LOIC-UDP - Attempted
+0            Web Attack - Brute Force - Attempted
+1                                  DDoS-LOIC-HTTP
+0                                   DoS Slowloris
+0                                          BENIGN
+1                        Web Attack - Brute Force
+0                                Web Attack - SQL
+0                         Botnet Ares - Attempted
+0                                Web Attack - XSS
+1     Infiltration - Dropbox Download - Attempted
+0                                     Botnet Ares
+1                       DoS Slowloris - Attempted
+2                                  SSH-BruteForce
+3                                       DDoS-HOIC
+0                    Web Attack - SQL - Attempted
+0                    Web Attack - XSS - Attempted
+0    Infiltration - Communication Victim Attacker
+0                                   DoS GoldenEye
+Name: Label, dtype: category
+Categories (25, object): ['BENIGN', 'Infiltration - NMAP Portscan', 'DoS Hulk', 'DoS Hulk - Attempted', ..., 'Web Attack - XSS', 'Web Attack - XSS - Attempted', 'Botnet Ares', 'Botnet Ares - Attempted']
+2024-10-30 14:54:30 - INFO - Values in column 'Label' replaced according to mapping
+2024-10-30 14:55:11 - INFO - Rows with labels ('DoS Slowhttptest', 'DoS Slowhttptest - Attempted', 'FTP-Patator', 'Heartbleed', 'Infiltration', 'Infiltration - Attempted', 'Portscan', 'SSH-Patator - Attempted', 'Botnet Ares - Attempted', 'DoS GoldenEye - Attempted', 'DoS Hulk - Attempted', 'DoS Slowloris - Attempted', 'FTP-BruteForce - Attempted', 'Web Attack - Brute Force - Attempted', 'Web Attack - SQL - Attempted', 'Web Attack - XSS - Attempted') in column 'Label' successfully removed from DataFrame
+2024-10-30 14:55:11 - INFO - Rows with labels ('DDoS-HOIC', 'DDoS-LOIC-UDP', 'DDoS-LOIC-UDP - Attempted', 'Infiltration - Communication Victim Attacker', 'Infiltration - Dropbox Download', 'Infiltration - Dropbox Download - Attempted', 'Botnet Ares - Attempted', 'DoS GoldenEye - Attempted', 'DoS Hulk - Attempted', 'DoS Slowloris - Attempted', 'FTP-BruteForce - Attempted', 'Web Attack - Brute Force - Attempted', 'Web Attack - SQL - Attempted', 'Web Attack - XSS - Attempted') in column 'Label' successfully removed from DataFrame
+2024-10-30 14:55:33 - INFO - Rows with infinite values successfully removed from DataFrame
+2024-10-30 14:55:33 - INFO - Rows with infinite values successfully removed from DataFrame
+2024-11-01 09:11:29 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-1938329' coro=<Client._gather.<locals>.wait() done, defined at /home/michi/BA/.venv/lib/python3.10/site-packages/distributed/client.py:2385> exception=AllExit()>
+Traceback (most recent call last):
+  File "/home/michi/BA/.venv/lib/python3.10/site-packages/distributed/client.py", line 2394, in wait
+    raise AllExit()
+distributed.client.AllExit
+2024-11-01 09:12:27 - INFO - DataFrame successfully loaded from ../01_Datensaetze/improved_cic-ids-2017/ids17_parquet
+2024-11-01 09:12:30 - INFO - DataFrame successfully loaded from ../01_Datensaetze/improved_cse-cic-ids-2018/ids18_parquet
+2024-11-01 09:12:53 - INFO - Columns ['id', 'Flow ID', 'Src IP', 'Src Port', 'Dst IP', 'Timestamp', 'Attempted Category'] successfully dropped from DataFrame
+2024-11-01 09:12:53 - INFO - Columns ['id', 'Flow ID', 'Src IP', 'Src Port', 'Dst IP', 'Timestamp', 'Attempted Category'] successfully dropped from DataFrame
+2024-11-01 09:13:10 - INFO - Column 'Dst Port' successfully converted to dtype 'int32'
+2024-11-01 09:13:10 - INFO - Column 'Protocol' successfully converted to dtype 'category'
+2024-11-01 09:13:10 - INFO - Column 'Flow Duration' successfully converted to dtype 'int64'
+2024-11-01 09:13:10 - INFO - Column 'Total Fwd Packet' successfully converted to dtype 'int64'
+2024-11-01 09:13:10 - INFO - Column 'Total Bwd packets' successfully converted to dtype 'int64'
+2024-11-01 09:13:10 - INFO - Column 'Total Length of Fwd Packet' successfully converted to dtype 'float64'
+2024-11-01 09:13:10 - INFO - Column 'Total Length of Bwd Packet' successfully converted to dtype 'float64'
+2024-11-01 09:13:10 - INFO - Column 'Fwd Packet Length Max' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Fwd Packet Length Min' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Fwd Packet Length Mean' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Fwd Packet Length Std' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Bwd Packet Length Max' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Bwd Packet Length Min' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Bwd Packet Length Mean' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Bwd Packet Length Std' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Flow Bytes/s' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Flow Packets/s' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Flow IAT Mean' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Flow IAT Std' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Flow IAT Max' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Flow IAT Min' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Fwd IAT Total' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Fwd IAT Mean' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Fwd IAT Std' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Fwd IAT Max' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Fwd IAT Min' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Bwd IAT Total' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Bwd IAT Mean' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Bwd IAT Std' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Bwd IAT Max' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Bwd IAT Min' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Fwd PSH Flags' successfully converted to dtype 'int32'
+2024-11-01 09:13:10 - INFO - Column 'Bwd PSH Flags' successfully converted to dtype 'int32'
+2024-11-01 09:13:10 - INFO - Column 'Fwd URG Flags' successfully converted to dtype 'int32'
+2024-11-01 09:13:10 - INFO - Column 'Bwd URG Flags' successfully converted to dtype 'int32'
+2024-11-01 09:13:10 - INFO - Column 'Fwd RST Flags' successfully converted to dtype 'int32'
+2024-11-01 09:13:10 - INFO - Column 'Bwd RST Flags' successfully converted to dtype 'int32'
+2024-11-01 09:13:10 - INFO - Column 'Fwd Header Length' successfully converted to dtype 'int64'
+2024-11-01 09:13:10 - INFO - Column 'Bwd Header Length' successfully converted to dtype 'int64'
+2024-11-01 09:13:10 - INFO - Column 'Packet Length Min' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Packet Length Max' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Packet Length Mean' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Packet Length Std' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'FIN Flag Count' successfully converted to dtype 'int32'
+2024-11-01 09:13:10 - INFO - Column 'SYN Flag Count' successfully converted to dtype 'int32'
+2024-11-01 09:13:10 - INFO - Column 'RST Flag Count' successfully converted to dtype 'int32'
+2024-11-01 09:13:10 - INFO - Column 'PSH Flag Count' successfully converted to dtype 'int32'
+2024-11-01 09:13:10 - INFO - Column 'ACK Flag Count' successfully converted to dtype 'int32'
+2024-11-01 09:13:10 - INFO - Column 'URG Flag Count' successfully converted to dtype 'int32'
+2024-11-01 09:13:10 - INFO - Column 'Label' successfully converted to dtype 'category'
+2024-11-01 09:13:10 - INFO - Column 'Dst Port' successfully converted to dtype 'int32'
+2024-11-01 09:13:10 - INFO - Column 'Protocol' successfully converted to dtype 'category'
+2024-11-01 09:13:10 - INFO - Column 'Flow Duration' successfully converted to dtype 'int64'
+2024-11-01 09:13:10 - INFO - Column 'Total Fwd Packet' successfully converted to dtype 'int64'
+2024-11-01 09:13:10 - INFO - Column 'Total Bwd packets' successfully converted to dtype 'int64'
+2024-11-01 09:13:10 - INFO - Column 'Total Length of Fwd Packet' successfully converted to dtype 'float64'
+2024-11-01 09:13:10 - INFO - Column 'Total Length of Bwd Packet' successfully converted to dtype 'float64'
+2024-11-01 09:13:10 - INFO - Column 'Fwd Packet Length Max' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Fwd Packet Length Min' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Fwd Packet Length Mean' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Fwd Packet Length Std' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Bwd Packet Length Max' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Bwd Packet Length Min' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Bwd Packet Length Mean' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Bwd Packet Length Std' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Flow Bytes/s' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Flow Packets/s' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Flow IAT Mean' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Flow IAT Std' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Flow IAT Max' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Flow IAT Min' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Fwd IAT Total' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Fwd IAT Mean' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Fwd IAT Std' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Fwd IAT Max' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Fwd IAT Min' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Bwd IAT Total' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Bwd IAT Mean' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Bwd IAT Std' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Bwd IAT Max' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Bwd IAT Min' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Fwd PSH Flags' successfully converted to dtype 'int32'
+2024-11-01 09:13:10 - INFO - Column 'Bwd PSH Flags' successfully converted to dtype 'int32'
+2024-11-01 09:13:10 - INFO - Column 'Fwd URG Flags' successfully converted to dtype 'int32'
+2024-11-01 09:13:10 - INFO - Column 'Bwd URG Flags' successfully converted to dtype 'int32'
+2024-11-01 09:13:10 - INFO - Column 'Fwd RST Flags' successfully converted to dtype 'int32'
+2024-11-01 09:13:10 - INFO - Column 'Bwd RST Flags' successfully converted to dtype 'int32'
+2024-11-01 09:13:10 - INFO - Column 'Fwd Header Length' successfully converted to dtype 'int64'
+2024-11-01 09:13:10 - INFO - Column 'Bwd Header Length' successfully converted to dtype 'int64'
+2024-11-01 09:13:10 - INFO - Column 'Packet Length Min' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Packet Length Max' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Packet Length Mean' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'Packet Length Std' successfully converted to dtype 'float32'
+2024-11-01 09:13:10 - INFO - Column 'FIN Flag Count' successfully converted to dtype 'int32'
+2024-11-01 09:13:10 - INFO - Column 'SYN Flag Count' successfully converted to dtype 'int32'
+2024-11-01 09:13:10 - INFO - Column 'RST Flag Count' successfully converted to dtype 'int32'
+2024-11-01 09:13:10 - INFO - Column 'PSH Flag Count' successfully converted to dtype 'int32'
+2024-11-01 09:13:10 - INFO - Column 'ACK Flag Count' successfully converted to dtype 'int32'
+2024-11-01 09:13:10 - INFO - Column 'URG Flag Count' successfully converted to dtype 'int32'
+2024-11-01 09:13:10 - INFO - Column 'Label' successfully converted to dtype 'category'
+2024-11-01 09:13:27 - INFO - Unique values in column 'Label': 0                                    Botnet
+1                                      DDoS
+2      Web Attack - Brute Force - Attempted
+3                   Infiltration - Portscan
+4                          DoS Slowhttptest
+0                        Botnet - Attempted
+1                                  Portscan
+2                          Web Attack - XSS
+3                               FTP-Patator
+4              DoS Slowhttptest - Attempted
+5                                  DoS Hulk
+6                                Heartbleed
+0                              Infiltration
+1                   FTP-Patator - Attempted
+2                             DoS Slowloris
+3                 DoS Slowloris - Attempted
+4                      DoS Hulk - Attempted
+5                             DoS GoldenEye
+6                 DoS GoldenEye - Attempted
+0                                    BENIGN
+1                  Web Attack - Brute Force
+2                  Infiltration - Attempted
+3              Web Attack - XSS - Attempted
+4    Web Attack - SQL Injection - Attempted
+5                Web Attack - SQL Injection
+6                               SSH-Patator
+7                   SSH-Patator - Attempted
+Name: Label, dtype: category
+Categories (27, object): ['BENIGN', 'Botnet', 'Botnet - Attempted', 'DDoS', ..., 'Web Attack - XSS - Attempted', 'DoS GoldenEye', 'DoS GoldenEye - Attempted', 'Heartbleed']
+2024-11-01 09:13:29 - INFO - Unique values in column 'Label': 0                      FTP-BruteForce - Attempted
+1                    Infiltration - NMAP Portscan
+2                                   DDoS-LOIC-UDP
+0                                        DoS Hulk
+0                            DoS Hulk - Attempted
+1                 Infiltration - Dropbox Download
+2                       DoS GoldenEye - Attempted
+3                       DDoS-LOIC-UDP - Attempted
+0            Web Attack - Brute Force - Attempted
+1                                  DDoS-LOIC-HTTP
+0                                   DoS Slowloris
+0                                          BENIGN
+1                        Web Attack - Brute Force
+0                                Web Attack - SQL
+0                         Botnet Ares - Attempted
+0                                Web Attack - XSS
+1     Infiltration - Dropbox Download - Attempted
+0                                     Botnet Ares
+1                       DoS Slowloris - Attempted
+2                                  SSH-BruteForce
+3                                       DDoS-HOIC
+0                    Web Attack - SQL - Attempted
+0                    Web Attack - XSS - Attempted
+0    Infiltration - Communication Victim Attacker
+0                                   DoS GoldenEye
+Name: Label, dtype: category
+Categories (25, object): ['BENIGN', 'Infiltration - NMAP Portscan', 'DDoS-LOIC-HTTP', 'DDoS-LOIC-UDP', ..., 'Web Attack - XSS', 'Web Attack - XSS - Attempted', 'Botnet Ares', 'Botnet Ares - Attempted']
+2024-11-01 09:13:29 - INFO - Values in column 'Label' replaced according to mapping
+2024-11-01 09:13:46 - INFO - Rows with labels ('DoS Slowhttptest', 'DoS Slowhttptest - Attempted', 'FTP-Patator', 'Heartbleed', 'Infiltration', 'Infiltration - Attempted', 'Portscan', 'SSH-Patator - Attempted', 'Botnet Ares - Attempted', 'DoS GoldenEye - Attempted', 'DoS Hulk - Attempted', 'DoS Slowloris - Attempted', 'FTP-BruteForce - Attempted', 'Web Attack - Brute Force - Attempted', 'Web Attack - SQL - Attempted', 'Web Attack - XSS - Attempted') in column 'Label' successfully removed from DataFrame
+2024-11-01 09:13:46 - INFO - Rows with labels ('DDoS-HOIC', 'DDoS-LOIC-UDP', 'DDoS-LOIC-UDP - Attempted', 'Infiltration - Communication Victim Attacker', 'Infiltration - Dropbox Download', 'Infiltration - Dropbox Download - Attempted', 'Botnet Ares - Attempted', 'DoS GoldenEye - Attempted', 'DoS Hulk - Attempted', 'DoS Slowloris - Attempted', 'FTP-BruteForce - Attempted', 'Web Attack - Brute Force - Attempted', 'Web Attack - SQL - Attempted', 'Web Attack - XSS - Attempted') in column 'Label' successfully removed from DataFrame
+2024-11-01 09:13:55 - INFO - Unique values in column 'Label': 0                  DDoS-LOIC-HTTP
+1    Infiltration - NMAP Portscan
+2                Web Attack - SQL
+0                Web Attack - XSS
+1                        DoS Hulk
+0                     Botnet Ares
+1                  SSH-BruteForce
+2                   DoS Slowloris
+3                   DoS GoldenEye
+0                          BENIGN
+1        Web Attack - Brute Force
+Name: Label, dtype: object
+2024-11-01 09:13:57 - INFO - Unique values in column 'Label': 0    Infiltration - NMAP Portscan
+0                        DoS Hulk
+0                  DDoS-LOIC-HTTP
+0                   DoS Slowloris
+0                          BENIGN
+1        Web Attack - Brute Force
+0                Web Attack - SQL
+0                Web Attack - XSS
+0                     Botnet Ares
+1                  SSH-BruteForce
+0                   DoS GoldenEye
+Name: Label, dtype: category
+Categories (25, object): ['BENIGN', 'Infiltration - NMAP Portscan', 'Infiltration - Communication Victim Attacker', 'Infiltration - Dropbox Download', ..., 'Web Attack - XSS - Attempted', 'SSH-BruteForce', 'Botnet Ares', 'Botnet Ares - Attempted']
+2024-11-01 09:14:40 - INFO - Rows with infinite values successfully removed from DataFrame
+2024-11-01 09:14:40 - INFO - Rows with infinite values successfully removed from DataFrame
+2024-11-01 10:16:22 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-1814922' coro=<Client._gather.<locals>.wait() done, defined at /home/michi/BA/.venv/lib/python3.10/site-packages/distributed/client.py:2385> exception=AllExit()>
+Traceback (most recent call last):
+  File "/home/michi/BA/.venv/lib/python3.10/site-packages/distributed/client.py", line 2394, in wait
+    raise AllExit()
+distributed.client.AllExit
+2024-11-01 10:36:34 - INFO - DataFrame successfully loaded from ../01_Datensaetze/improved_cic-ids-2017/ids17_parquet
+2024-11-01 10:36:34 - INFO - DataFrame successfully loaded from ../01_Datensaetze/improved_cse-cic-ids-2018/ids18_parquet
+2024-11-01 10:36:36 - INFO - Columns ['id', 'Flow ID', 'Src IP', 'Src Port', 'Dst IP', 'Timestamp', 'Attempted Category'] successfully dropped from DataFrame
+2024-11-01 10:36:36 - INFO - Columns ['id', 'Flow ID', 'Src IP', 'Src Port', 'Dst IP', 'Timestamp', 'Attempted Category'] successfully dropped from DataFrame
+2024-11-01 10:36:36 - INFO - Column 'Dst Port' successfully converted to dtype 'int32'
+2024-11-01 10:36:36 - INFO - Column 'Protocol' successfully converted to dtype 'category'
+2024-11-01 10:36:36 - INFO - Column 'Flow Duration' successfully converted to dtype 'int64'
+2024-11-01 10:36:36 - INFO - Column 'Total Fwd Packet' successfully converted to dtype 'int64'
+2024-11-01 10:36:36 - INFO - Column 'Total Bwd packets' successfully converted to dtype 'int64'
+2024-11-01 10:36:36 - INFO - Column 'Total Length of Fwd Packet' successfully converted to dtype 'float64'
+2024-11-01 10:36:36 - INFO - Column 'Total Length of Bwd Packet' successfully converted to dtype 'float64'
+2024-11-01 10:36:36 - INFO - Column 'Fwd Packet Length Max' successfully converted to dtype 'float32'
+2024-11-01 10:36:36 - INFO - Column 'Fwd Packet Length Min' successfully converted to dtype 'float32'
+2024-11-01 10:36:36 - INFO - Column 'Fwd Packet Length Mean' successfully converted to dtype 'float32'
+2024-11-01 10:36:36 - INFO - Column 'Fwd Packet Length Std' successfully converted to dtype 'float32'
+2024-11-01 10:36:36 - INFO - Column 'Bwd Packet Length Max' successfully converted to dtype 'float32'
+2024-11-01 10:36:36 - INFO - Column 'Bwd Packet Length Min' successfully converted to dtype 'float32'
+2024-11-01 10:36:36 - INFO - Column 'Bwd Packet Length Mean' successfully converted to dtype 'float32'
+2024-11-01 10:36:36 - INFO - Column 'Bwd Packet Length Std' successfully converted to dtype 'float32'
+2024-11-01 10:36:36 - INFO - Column 'Flow Bytes/s' successfully converted to dtype 'float32'
+2024-11-01 10:36:36 - INFO - Column 'Flow Packets/s' successfully converted to dtype 'float32'
+2024-11-01 10:36:36 - INFO - Column 'Flow IAT Mean' successfully converted to dtype 'float32'
+2024-11-01 10:36:36 - INFO - Column 'Flow IAT Std' successfully converted to dtype 'float32'
+2024-11-01 10:36:36 - INFO - Column 'Flow IAT Max' successfully converted to dtype 'float32'
+2024-11-01 10:36:36 - INFO - Column 'Flow IAT Min' successfully converted to dtype 'float32'
+2024-11-01 10:36:36 - INFO - Column 'Fwd IAT Total' successfully converted to dtype 'float32'
+2024-11-01 10:36:36 - INFO - Column 'Fwd IAT Mean' successfully converted to dtype 'float32'
+2024-11-01 10:36:36 - INFO - Column 'Fwd IAT Std' successfully converted to dtype 'float32'
+2024-11-01 10:36:36 - INFO - Column 'Fwd IAT Max' successfully converted to dtype 'float32'
+2024-11-01 10:36:36 - INFO - Column 'Fwd IAT Min' successfully converted to dtype 'float32'
+2024-11-01 10:36:36 - INFO - Column 'Bwd IAT Total' successfully converted to dtype 'float32'
+2024-11-01 10:36:36 - INFO - Column 'Bwd IAT Mean' successfully converted to dtype 'float32'
+2024-11-01 10:36:36 - INFO - Column 'Bwd IAT Std' successfully converted to dtype 'float32'
+2024-11-01 10:36:36 - INFO - Column 'Bwd IAT Max' successfully converted to dtype 'float32'
+2024-11-01 10:36:36 - INFO - Column 'Bwd IAT Min' successfully converted to dtype 'float32'
+2024-11-01 10:36:36 - INFO - Column 'Fwd PSH Flags' successfully converted to dtype 'int32'
+2024-11-01 10:36:36 - INFO - Column 'Bwd PSH Flags' successfully converted to dtype 'int32'
+2024-11-01 10:36:36 - INFO - Column 'Fwd URG Flags' successfully converted to dtype 'int32'
+2024-11-01 10:36:36 - INFO - Column 'Bwd URG Flags' successfully converted to dtype 'int32'
+2024-11-01 10:36:36 - INFO - Column 'Fwd RST Flags' successfully converted to dtype 'int32'
+2024-11-01 10:36:36 - INFO - Column 'Bwd RST Flags' successfully converted to dtype 'int32'
+2024-11-01 10:36:36 - INFO - Column 'Fwd Header Length' successfully converted to dtype 'int64'
+2024-11-01 10:36:36 - INFO - Column 'Bwd Header Length' successfully converted to dtype 'int64'
+2024-11-01 10:36:36 - INFO - Column 'Packet Length Min' successfully converted to dtype 'float32'
+2024-11-01 10:36:36 - INFO - Column 'Packet Length Max' successfully converted to dtype 'float32'
+2024-11-01 10:36:36 - INFO - Column 'Packet Length Mean' successfully converted to dtype 'float32'
+2024-11-01 10:36:36 - INFO - Column 'Packet Length Std' successfully converted to dtype 'float32'
+2024-11-01 10:36:36 - INFO - Column 'FIN Flag Count' successfully converted to dtype 'int32'
+2024-11-01 10:36:36 - INFO - Column 'SYN Flag Count' successfully converted to dtype 'int32'
+2024-11-01 10:36:37 - INFO - Column 'RST Flag Count' successfully converted to dtype 'int32'
+2024-11-01 10:36:37 - INFO - Column 'PSH Flag Count' successfully converted to dtype 'int32'
+2024-11-01 10:36:37 - INFO - Column 'ACK Flag Count' successfully converted to dtype 'int32'
+2024-11-01 10:36:37 - INFO - Column 'URG Flag Count' successfully converted to dtype 'int32'
+2024-11-01 10:36:37 - INFO - Column 'Label' successfully converted to dtype 'category'
+2024-11-01 10:36:37 - INFO - Column 'Dst Port' successfully converted to dtype 'int32'
+2024-11-01 10:36:37 - INFO - Column 'Protocol' successfully converted to dtype 'category'
+2024-11-01 10:36:37 - INFO - Column 'Flow Duration' successfully converted to dtype 'int64'
+2024-11-01 10:36:37 - INFO - Column 'Total Fwd Packet' successfully converted to dtype 'int64'
+2024-11-01 10:36:37 - INFO - Column 'Total Bwd packets' successfully converted to dtype 'int64'
+2024-11-01 10:36:37 - INFO - Column 'Total Length of Fwd Packet' successfully converted to dtype 'float64'
+2024-11-01 10:36:37 - INFO - Column 'Total Length of Bwd Packet' successfully converted to dtype 'float64'
+2024-11-01 10:36:37 - INFO - Column 'Fwd Packet Length Max' successfully converted to dtype 'float32'
+2024-11-01 10:36:37 - INFO - Column 'Fwd Packet Length Min' successfully converted to dtype 'float32'
+2024-11-01 10:36:37 - INFO - Column 'Fwd Packet Length Mean' successfully converted to dtype 'float32'
+2024-11-01 10:36:37 - INFO - Column 'Fwd Packet Length Std' successfully converted to dtype 'float32'
+2024-11-01 10:36:37 - INFO - Column 'Bwd Packet Length Max' successfully converted to dtype 'float32'
+2024-11-01 10:36:37 - INFO - Column 'Bwd Packet Length Min' successfully converted to dtype 'float32'
+2024-11-01 10:36:37 - INFO - Column 'Bwd Packet Length Mean' successfully converted to dtype 'float32'
+2024-11-01 10:36:37 - INFO - Column 'Bwd Packet Length Std' successfully converted to dtype 'float32'
+2024-11-01 10:36:37 - INFO - Column 'Flow Bytes/s' successfully converted to dtype 'float32'
+2024-11-01 10:36:37 - INFO - Column 'Flow Packets/s' successfully converted to dtype 'float32'
+2024-11-01 10:36:37 - INFO - Column 'Flow IAT Mean' successfully converted to dtype 'float32'
+2024-11-01 10:36:37 - INFO - Column 'Flow IAT Std' successfully converted to dtype 'float32'
+2024-11-01 10:36:37 - INFO - Column 'Flow IAT Max' successfully converted to dtype 'float32'
+2024-11-01 10:36:37 - INFO - Column 'Flow IAT Min' successfully converted to dtype 'float32'
+2024-11-01 10:36:37 - INFO - Column 'Fwd IAT Total' successfully converted to dtype 'float32'
+2024-11-01 10:36:37 - INFO - Column 'Fwd IAT Mean' successfully converted to dtype 'float32'
+2024-11-01 10:36:37 - INFO - Column 'Fwd IAT Std' successfully converted to dtype 'float32'
+2024-11-01 10:36:37 - INFO - Column 'Fwd IAT Max' successfully converted to dtype 'float32'
+2024-11-01 10:36:37 - INFO - Column 'Fwd IAT Min' successfully converted to dtype 'float32'
+2024-11-01 10:36:37 - INFO - Column 'Bwd IAT Total' successfully converted to dtype 'float32'
+2024-11-01 10:36:37 - INFO - Column 'Bwd IAT Mean' successfully converted to dtype 'float32'
+2024-11-01 10:36:37 - INFO - Column 'Bwd IAT Std' successfully converted to dtype 'float32'
+2024-11-01 10:36:37 - INFO - Column 'Bwd IAT Max' successfully converted to dtype 'float32'
+2024-11-01 10:36:37 - INFO - Column 'Bwd IAT Min' successfully converted to dtype 'float32'
+2024-11-01 10:36:37 - INFO - Column 'Fwd PSH Flags' successfully converted to dtype 'int32'
+2024-11-01 10:36:37 - INFO - Column 'Bwd PSH Flags' successfully converted to dtype 'int32'
+2024-11-01 10:36:37 - INFO - Column 'Fwd URG Flags' successfully converted to dtype 'int32'
+2024-11-01 10:36:37 - INFO - Column 'Bwd URG Flags' successfully converted to dtype 'int32'
+2024-11-01 10:36:37 - INFO - Column 'Fwd RST Flags' successfully converted to dtype 'int32'
+2024-11-01 10:36:37 - INFO - Column 'Bwd RST Flags' successfully converted to dtype 'int32'
+2024-11-01 10:36:37 - INFO - Column 'Fwd Header Length' successfully converted to dtype 'int64'
+2024-11-01 10:36:37 - INFO - Column 'Bwd Header Length' successfully converted to dtype 'int64'
+2024-11-01 10:36:37 - INFO - Column 'Packet Length Min' successfully converted to dtype 'float32'
+2024-11-01 10:36:37 - INFO - Column 'Packet Length Max' successfully converted to dtype 'float32'
+2024-11-01 10:36:37 - INFO - Column 'Packet Length Mean' successfully converted to dtype 'float32'
+2024-11-01 10:36:37 - INFO - Column 'Packet Length Std' successfully converted to dtype 'float32'
+2024-11-01 10:36:37 - INFO - Column 'FIN Flag Count' successfully converted to dtype 'int32'
+2024-11-01 10:36:37 - INFO - Column 'SYN Flag Count' successfully converted to dtype 'int32'
+2024-11-01 10:36:37 - INFO - Column 'RST Flag Count' successfully converted to dtype 'int32'
+2024-11-01 10:36:37 - INFO - Column 'PSH Flag Count' successfully converted to dtype 'int32'
+2024-11-01 10:36:37 - INFO - Column 'ACK Flag Count' successfully converted to dtype 'int32'
+2024-11-01 10:36:37 - INFO - Column 'URG Flag Count' successfully converted to dtype 'int32'
+2024-11-01 10:36:37 - INFO - Column 'Label' successfully converted to dtype 'category'
+2024-11-01 10:36:39 - INFO - Unique values in column 'Label': 0                                    Botnet
+1                                      DDoS
+2      Web Attack - Brute Force - Attempted
+3                   Infiltration - Portscan
+4                          DoS Slowhttptest
+0                        Botnet - Attempted
+1                                  Portscan
+2                          Web Attack - XSS
+3                               FTP-Patator
+4              DoS Slowhttptest - Attempted
+5                                  DoS Hulk
+6                                Heartbleed
+0                              Infiltration
+1                   FTP-Patator - Attempted
+2                             DoS Slowloris
+3                 DoS Slowloris - Attempted
+4                      DoS Hulk - Attempted
+5                             DoS GoldenEye
+6                 DoS GoldenEye - Attempted
+0                                    BENIGN
+1                  Web Attack - Brute Force
+2                  Infiltration - Attempted
+3              Web Attack - XSS - Attempted
+4    Web Attack - SQL Injection - Attempted
+5                Web Attack - SQL Injection
+6                               SSH-Patator
+7                   SSH-Patator - Attempted
+Name: Label, dtype: category
+Categories (27, object): ['BENIGN', 'Botnet', 'Botnet - Attempted', 'DDoS', ..., 'FTP-Patator', 'FTP-Patator - Attempted', 'SSH-Patator', 'SSH-Patator - Attempted']
+2024-11-01 10:36:41 - INFO - Unique values in column 'Label': 0                      FTP-BruteForce - Attempted
+1                    Infiltration - NMAP Portscan
+2                                   DDoS-LOIC-UDP
+0                                        DoS Hulk
+0                            DoS Hulk - Attempted
+1                 Infiltration - Dropbox Download
+2                       DoS GoldenEye - Attempted
+3                       DDoS-LOIC-UDP - Attempted
+0            Web Attack - Brute Force - Attempted
+1                                  DDoS-LOIC-HTTP
+0                                   DoS Slowloris
+0                                          BENIGN
+1                        Web Attack - Brute Force
+0                                Web Attack - SQL
+0                         Botnet Ares - Attempted
+0                                Web Attack - XSS
+1     Infiltration - Dropbox Download - Attempted
+0                                     Botnet Ares
+1                       DoS Slowloris - Attempted
+2                                  SSH-BruteForce
+3                                       DDoS-HOIC
+0                    Web Attack - SQL - Attempted
+0                    Web Attack - XSS - Attempted
+0    Infiltration - Communication Victim Attacker
+0                                   DoS GoldenEye
+Name: Label, dtype: category
+Categories (25, object): ['BENIGN', 'Infiltration - NMAP Portscan', 'DDoS-LOIC-HTTP', 'DDoS-LOIC-UDP', ..., 'Web Attack - XSS', 'Web Attack - XSS - Attempted', 'Botnet Ares', 'Botnet Ares - Attempted']
+2024-11-01 10:36:41 - INFO - Values in column 'Label' replaced according to mapping
+2024-11-01 10:36:41 - INFO - Rows with labels ('DoS Slowhttptest', 'DoS Slowhttptest - Attempted', 'FTP-Patator', 'Heartbleed', 'Infiltration', 'Infiltration - Attempted', 'Portscan', 'SSH-Patator - Attempted', 'Botnet Ares - Attempted', 'DoS GoldenEye - Attempted', 'DoS Hulk - Attempted', 'DoS Slowloris - Attempted', 'FTP-BruteForce - Attempted', 'Web Attack - Brute Force - Attempted', 'Web Attack - SQL - Attempted', 'Web Attack - XSS - Attempted') in column 'Label' successfully removed from DataFrame
+2024-11-01 10:36:41 - INFO - Rows with labels ('DDoS-HOIC', 'DDoS-LOIC-UDP', 'DDoS-LOIC-UDP - Attempted', 'Infiltration - Communication Victim Attacker', 'Infiltration - Dropbox Download', 'Infiltration - Dropbox Download - Attempted', 'Botnet Ares - Attempted', 'DoS GoldenEye - Attempted', 'DoS Hulk - Attempted', 'DoS Slowloris - Attempted', 'FTP-BruteForce - Attempted', 'Web Attack - Brute Force - Attempted', 'Web Attack - SQL - Attempted', 'Web Attack - XSS - Attempted') in column 'Label' successfully removed from DataFrame
+2024-11-01 10:36:43 - INFO - Unique values in column 'Label': 0                  DDoS-LOIC-HTTP
+1    Infiltration - NMAP Portscan
+2                Web Attack - SQL
+0                Web Attack - XSS
+1                        DoS Hulk
+0                     Botnet Ares
+1                  SSH-BruteForce
+2                   DoS Slowloris
+3                   DoS GoldenEye
+0                          BENIGN
+1        Web Attack - Brute Force
+Name: Label, dtype: object
+2024-11-01 10:36:45 - INFO - Unique values in column 'Label': 0    Infiltration - NMAP Portscan
+0                        DoS Hulk
+0                  DDoS-LOIC-HTTP
+0                   DoS Slowloris
+0                          BENIGN
+1        Web Attack - Brute Force
+0                Web Attack - SQL
+0                Web Attack - XSS
+0                     Botnet Ares
+1                  SSH-BruteForce
+0                   DoS GoldenEye
+Name: Label, dtype: category
+Categories (25, object): ['BENIGN', 'Infiltration - NMAP Portscan', 'Infiltration - Communication Victim Attacker', 'Infiltration - Dropbox Download', ..., 'DDoS-HOIC', 'SSH-BruteForce', 'Botnet Ares', 'Botnet Ares - Attempted']
+2024-11-01 10:37:04 - INFO - Rows with infinite values successfully removed from DataFrame
+2024-11-01 10:37:04 - INFO - Rows with infinite values successfully removed from DataFrame
+2024-11-01 11:41:21 - INFO - DataFrame successfully loaded from ../01_Datensaetze/improved_cic-ids-2017/ids17_parquet
+2024-11-01 11:41:21 - INFO - DataFrame successfully loaded from ../01_Datensaetze/improved_cse-cic-ids-2018/ids18_parquet
+2024-11-01 11:41:22 - INFO - Columns ['id', 'Flow ID', 'Src IP', 'Src Port', 'Dst IP', 'Timestamp', 'Attempted Category'] successfully dropped from DataFrame
+2024-11-01 11:41:22 - INFO - Columns ['id', 'Flow ID', 'Src IP', 'Src Port', 'Dst IP', 'Timestamp', 'Attempted Category'] successfully dropped from DataFrame
+2024-11-01 11:41:23 - INFO - Column 'Dst Port' successfully converted to dtype 'int32'
+2024-11-01 11:41:23 - INFO - Column 'Protocol' successfully converted to dtype 'category'
+2024-11-01 11:41:23 - INFO - Column 'Flow Duration' successfully converted to dtype 'int64'
+2024-11-01 11:41:23 - INFO - Column 'Total Fwd Packet' successfully converted to dtype 'int64'
+2024-11-01 11:41:23 - INFO - Column 'Total Bwd packets' successfully converted to dtype 'int64'
+2024-11-01 11:41:23 - INFO - Column 'Total Length of Fwd Packet' successfully converted to dtype 'float64'
+2024-11-01 11:41:23 - INFO - Column 'Total Length of Bwd Packet' successfully converted to dtype 'float64'
+2024-11-01 11:41:23 - INFO - Column 'Fwd Packet Length Max' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Fwd Packet Length Min' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Fwd Packet Length Mean' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Fwd Packet Length Std' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Bwd Packet Length Max' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Bwd Packet Length Min' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Bwd Packet Length Mean' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Bwd Packet Length Std' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Flow Bytes/s' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Flow Packets/s' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Flow IAT Mean' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Flow IAT Std' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Flow IAT Max' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Flow IAT Min' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Fwd IAT Total' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Fwd IAT Mean' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Fwd IAT Std' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Fwd IAT Max' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Fwd IAT Min' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Bwd IAT Total' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Bwd IAT Mean' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Bwd IAT Std' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Bwd IAT Max' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Bwd IAT Min' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Fwd PSH Flags' successfully converted to dtype 'int32'
+2024-11-01 11:41:23 - INFO - Column 'Bwd PSH Flags' successfully converted to dtype 'int32'
+2024-11-01 11:41:23 - INFO - Column 'Fwd URG Flags' successfully converted to dtype 'int32'
+2024-11-01 11:41:23 - INFO - Column 'Bwd URG Flags' successfully converted to dtype 'int32'
+2024-11-01 11:41:23 - INFO - Column 'Fwd RST Flags' successfully converted to dtype 'int32'
+2024-11-01 11:41:23 - INFO - Column 'Bwd RST Flags' successfully converted to dtype 'int32'
+2024-11-01 11:41:23 - INFO - Column 'Fwd Header Length' successfully converted to dtype 'int64'
+2024-11-01 11:41:23 - INFO - Column 'Bwd Header Length' successfully converted to dtype 'int64'
+2024-11-01 11:41:23 - INFO - Column 'Packet Length Min' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Packet Length Max' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Packet Length Mean' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Packet Length Std' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'FIN Flag Count' successfully converted to dtype 'int32'
+2024-11-01 11:41:23 - INFO - Column 'SYN Flag Count' successfully converted to dtype 'int32'
+2024-11-01 11:41:23 - INFO - Column 'RST Flag Count' successfully converted to dtype 'int32'
+2024-11-01 11:41:23 - INFO - Column 'PSH Flag Count' successfully converted to dtype 'int32'
+2024-11-01 11:41:23 - INFO - Column 'ACK Flag Count' successfully converted to dtype 'int32'
+2024-11-01 11:41:23 - INFO - Column 'URG Flag Count' successfully converted to dtype 'int32'
+2024-11-01 11:41:23 - INFO - Column 'Label' successfully converted to dtype 'category'
+2024-11-01 11:41:23 - INFO - Column 'Dst Port' successfully converted to dtype 'int32'
+2024-11-01 11:41:23 - INFO - Column 'Protocol' successfully converted to dtype 'category'
+2024-11-01 11:41:23 - INFO - Column 'Flow Duration' successfully converted to dtype 'int64'
+2024-11-01 11:41:23 - INFO - Column 'Total Fwd Packet' successfully converted to dtype 'int64'
+2024-11-01 11:41:23 - INFO - Column 'Total Bwd packets' successfully converted to dtype 'int64'
+2024-11-01 11:41:23 - INFO - Column 'Total Length of Fwd Packet' successfully converted to dtype 'float64'
+2024-11-01 11:41:23 - INFO - Column 'Total Length of Bwd Packet' successfully converted to dtype 'float64'
+2024-11-01 11:41:23 - INFO - Column 'Fwd Packet Length Max' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Fwd Packet Length Min' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Fwd Packet Length Mean' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Fwd Packet Length Std' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Bwd Packet Length Max' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Bwd Packet Length Min' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Bwd Packet Length Mean' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Bwd Packet Length Std' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Flow Bytes/s' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Flow Packets/s' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Flow IAT Mean' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Flow IAT Std' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Flow IAT Max' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Flow IAT Min' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Fwd IAT Total' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Fwd IAT Mean' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Fwd IAT Std' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Fwd IAT Max' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Fwd IAT Min' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Bwd IAT Total' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Bwd IAT Mean' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Bwd IAT Std' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Bwd IAT Max' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Bwd IAT Min' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Fwd PSH Flags' successfully converted to dtype 'int32'
+2024-11-01 11:41:23 - INFO - Column 'Bwd PSH Flags' successfully converted to dtype 'int32'
+2024-11-01 11:41:23 - INFO - Column 'Fwd URG Flags' successfully converted to dtype 'int32'
+2024-11-01 11:41:23 - INFO - Column 'Bwd URG Flags' successfully converted to dtype 'int32'
+2024-11-01 11:41:23 - INFO - Column 'Fwd RST Flags' successfully converted to dtype 'int32'
+2024-11-01 11:41:23 - INFO - Column 'Bwd RST Flags' successfully converted to dtype 'int32'
+2024-11-01 11:41:23 - INFO - Column 'Fwd Header Length' successfully converted to dtype 'int64'
+2024-11-01 11:41:23 - INFO - Column 'Bwd Header Length' successfully converted to dtype 'int64'
+2024-11-01 11:41:23 - INFO - Column 'Packet Length Min' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Packet Length Max' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Packet Length Mean' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'Packet Length Std' successfully converted to dtype 'float32'
+2024-11-01 11:41:23 - INFO - Column 'FIN Flag Count' successfully converted to dtype 'int32'
+2024-11-01 11:41:23 - INFO - Column 'SYN Flag Count' successfully converted to dtype 'int32'
+2024-11-01 11:41:23 - INFO - Column 'RST Flag Count' successfully converted to dtype 'int32'
+2024-11-01 11:41:23 - INFO - Column 'PSH Flag Count' successfully converted to dtype 'int32'
+2024-11-01 11:41:23 - INFO - Column 'ACK Flag Count' successfully converted to dtype 'int32'
+2024-11-01 11:41:23 - INFO - Column 'URG Flag Count' successfully converted to dtype 'int32'
+2024-11-01 11:41:23 - INFO - Column 'Label' successfully converted to dtype 'category'
+2024-11-01 11:41:25 - INFO - Unique values in column 'Label': 0                                    Botnet
+1                                      DDoS
+2      Web Attack - Brute Force - Attempted
+3                   Infiltration - Portscan
+4                          DoS Slowhttptest
+0                        Botnet - Attempted
+1                                  Portscan
+2                          Web Attack - XSS
+3                               FTP-Patator
+4              DoS Slowhttptest - Attempted
+5                                  DoS Hulk
+6                                Heartbleed
+0                              Infiltration
+1                   FTP-Patator - Attempted
+2                             DoS Slowloris
+3                 DoS Slowloris - Attempted
+4                      DoS Hulk - Attempted
+5                             DoS GoldenEye
+6                 DoS GoldenEye - Attempted
+0                                    BENIGN
+1                  Web Attack - Brute Force
+2                  Infiltration - Attempted
+3              Web Attack - XSS - Attempted
+4    Web Attack - SQL Injection - Attempted
+5                Web Attack - SQL Injection
+6                               SSH-Patator
+7                   SSH-Patator - Attempted
+Name: Label, dtype: category
+Categories (27, object): ['BENIGN', 'Botnet', 'Botnet - Attempted', 'DDoS', ..., 'FTP-Patator', 'FTP-Patator - Attempted', 'SSH-Patator', 'SSH-Patator - Attempted']
+2024-11-01 11:41:27 - INFO - Unique values in column 'Label': 0                      FTP-BruteForce - Attempted
+1                    Infiltration - NMAP Portscan
+2                                   DDoS-LOIC-UDP
+0                                        DoS Hulk
+0                            DoS Hulk - Attempted
+1                 Infiltration - Dropbox Download
+2                       DoS GoldenEye - Attempted
+3                       DDoS-LOIC-UDP - Attempted
+0            Web Attack - Brute Force - Attempted
+1                                  DDoS-LOIC-HTTP
+0                                   DoS Slowloris
+0                                          BENIGN
+1                        Web Attack - Brute Force
+0                                Web Attack - SQL
+0                         Botnet Ares - Attempted
+0                                Web Attack - XSS
+1     Infiltration - Dropbox Download - Attempted
+0                                     Botnet Ares
+1                       DoS Slowloris - Attempted
+2                                  SSH-BruteForce
+3                                       DDoS-HOIC
+0                    Web Attack - SQL - Attempted
+0                    Web Attack - XSS - Attempted
+0    Infiltration - Communication Victim Attacker
+0                                   DoS GoldenEye
+Name: Label, dtype: category
+Categories (25, object): ['BENIGN', 'Infiltration - NMAP Portscan', 'DDoS-LOIC-HTTP', 'DDoS-LOIC-UDP', ..., 'Web Attack - XSS', 'Web Attack - XSS - Attempted', 'Botnet Ares', 'Botnet Ares - Attempted']
+2024-11-01 11:41:27 - INFO - Values in column 'Label' replaced according to mapping
+2024-11-01 11:41:28 - INFO - Rows with labels ('DoS Slowhttptest', 'DoS Slowhttptest - Attempted', 'FTP-Patator', 'Heartbleed', 'Infiltration', 'Infiltration - Attempted', 'Portscan', 'SSH-Patator - Attempted', 'Botnet Ares - Attempted', 'DoS GoldenEye - Attempted', 'DoS Hulk - Attempted', 'DoS Slowloris - Attempted', 'FTP-BruteForce - Attempted', 'Web Attack - Brute Force - Attempted', 'Web Attack - SQL - Attempted', 'Web Attack - XSS - Attempted') in column 'Label' successfully removed from DataFrame
+2024-11-01 11:41:28 - INFO - Rows with labels ('DDoS-HOIC', 'DDoS-LOIC-UDP', 'DDoS-LOIC-UDP - Attempted', 'Infiltration - Communication Victim Attacker', 'Infiltration - Dropbox Download', 'Infiltration - Dropbox Download - Attempted', 'Botnet Ares - Attempted', 'DoS GoldenEye - Attempted', 'DoS Hulk - Attempted', 'DoS Slowloris - Attempted', 'FTP-BruteForce - Attempted', 'Web Attack - Brute Force - Attempted', 'Web Attack - SQL - Attempted', 'Web Attack - XSS - Attempted') in column 'Label' successfully removed from DataFrame
+2024-11-01 11:41:30 - INFO - Unique values in column 'Label': 0                  DDoS-LOIC-HTTP
+1    Infiltration - NMAP Portscan
+2                Web Attack - SQL
+0                Web Attack - XSS
+1                        DoS Hulk
+0                     Botnet Ares
+1                  SSH-BruteForce
+2                   DoS Slowloris
+3                   DoS GoldenEye
+0                          BENIGN
+1        Web Attack - Brute Force
+Name: Label, dtype: object
+2024-11-01 11:41:32 - INFO - Unique values in column 'Label': 0    Infiltration - NMAP Portscan
+0                        DoS Hulk
+0                  DDoS-LOIC-HTTP
+0                   DoS Slowloris
+0                          BENIGN
+1        Web Attack - Brute Force
+0                Web Attack - SQL
+0                Web Attack - XSS
+0                     Botnet Ares
+1                  SSH-BruteForce
+0                   DoS GoldenEye
+Name: Label, dtype: category
+Categories (25, object): ['BENIGN', 'Infiltration - NMAP Portscan', 'Infiltration - Communication Victim Attacker', 'Infiltration - Dropbox Download', ..., 'Web Attack - XSS', 'Web Attack - XSS - Attempted', 'Botnet Ares', 'Botnet Ares - Attempted']
+2024-11-01 11:41:51 - INFO - Rows with infinite values successfully removed from DataFrame
+2024-11-01 11:41:51 - INFO - Rows with infinite values successfully removed from DataFrame
