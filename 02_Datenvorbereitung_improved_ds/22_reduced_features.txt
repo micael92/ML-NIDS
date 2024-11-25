@@ -1,51 +1,50 @@
-Fwd IAT Total
-Dst Port
-FIN Flag Count
-Packet Length Variance
-Down/Up Ratio
-Bwd Packet Length Min
-Bwd Packet Length Mean
-URG Flag Count
-Bwd Packets/s
 Total TCP Flow Time
-Bwd Bulk Rate Avg
-Total Length of Fwd Packet
-Bwd IAT Mean
-Bwd Packet/Bulk Avg
-Fwd IAT Max
-Protocol
-Flow IAT Min
-Bwd Header Length
-Active Max
-Total Fwd Packet
-Subflow Bwd Packets
+Fwd IAT Total
 Fwd Header Length
+Idle Std
+Bwd Header Length
+Dst Port
+ECE Flag Count
+Fwd IAT Max
+Fwd Packet Length Max
+Fwd PSH Flags
+Fwd Bulk Rate Avg
+Protocol
+Bwd Packet Length Min
+Bwd Init Win Bytes
+Flow Bytes/s
+Fwd IAT Mean
+FWD Init Win Bytes
+Fwd Packet Length Min
+Total Length of Fwd Packet
+Bwd IAT Std
+Bwd IAT Min
+Bwd Bulk Rate Avg
+Bwd Bytes/Bulk Avg
+Bwd Packet Length Std
+Bwd URG Flags
+Flow IAT Mean
+Fwd IAT Min
+Subflow Bwd Packets
 Fwd Seg Size Min
 Fwd RST Flags
-Idle Std
-Fwd Packet Length Min
-Bwd Init Win Bytes
-Bwd Packet Length Std
-RST Flag Count
-Fwd Act Data Pkts
-Subflow Fwd Packets
-ECE Flag Count
-SYN Flag Count
-Bwd URG Flags
-Average Packet Size
-Bwd IAT Max
 Bwd PSH Flags
-Total Length of Bwd Packet
-Bwd RST Flags
-Flow Bytes/s
-Fwd Bulk Rate Avg
-Fwd IAT Min
-Active Std
-Packet Length Max
+Flow IAT Max
+FIN Flag Count
+SYN Flag Count
 Bwd IAT Total
-Fwd IAT Mean
-Flow IAT Mean
-Bwd IAT Min
-FWD Init Win Bytes
-Fwd PSH Flags
+Bwd Segment Size Avg
+Down/Up Ratio
+Total Fwd Packet
+Packet Length Variance
+Fwd URG Flags
+Flow IAT Min
 Active Min
+Bwd IAT Mean
+Bwd Packets/s
+Bwd RST Flags
+RST Flag Count
+Active Std
+Subflow Fwd Packets
+Total Length of Bwd Packet
+Fwd Act Data Pkts
