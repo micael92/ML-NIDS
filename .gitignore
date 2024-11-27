@@ -1,6 +1,11 @@
-01_Datensaetze/
 99_Archiv/
 *.h5
 *.pkl
 *.png
 *.keras
+*.pkl
+*.h5
+*.keras
+*.zip
+*.csv
+*.parquet
